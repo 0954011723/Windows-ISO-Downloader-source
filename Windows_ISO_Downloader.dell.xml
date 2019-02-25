@@ -1,0 +1,3528 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<images>
+  <xsd:schema id="images" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="images">
+      <xsd:complexType>
+        <xsd:sequence>
+          <xsd:any processContents="skip" namespace="http://www.w3.org/2001/XMLSchema" minOccurs="0" maxOccurs="1"/>
+          <xsd:element maxOccurs="unbounded" name="image">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="model" type="xsd:string" />
+                <xsd:element name="systems" type="xsd:string" />
+                <xsd:element maxOccurs="unbounded" name="serviceTag" type="xsd:string" />
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <image>
+    <model>Alienware 13 R2 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>5KRWDC2</serviceTag>
+    <serviceTag>JF5MJC2</serviceTag>
+  </image>
+  <image>
+    <model>Alienware 13 R3 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>828G7H2</serviceTag>
+  </image>
+  <image>
+    <model>Alienware 15 R2 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>4526HC2</serviceTag>
+    <serviceTag>46T3S72</serviceTag>
+    <serviceTag>4M96HC2</serviceTag>
+    <serviceTag>5KP9DC2</serviceTag>
+    <serviceTag>6SXYDC2</serviceTag>
+    <serviceTag>807X362</serviceTag>
+    <serviceTag>9503J72</serviceTag>
+    <serviceTag>JSXYDC2</serviceTag>
+  </image>
+  <image>
+    <model>Alienware 15 R2 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>9CJ3J72</serviceTag>
+    <serviceTag>DFR3F72</serviceTag>
+    <serviceTag>JZ5MQC2</serviceTag>
+  </image>
+  <image>
+    <model>Alienware 15 R2 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>46TNK72</serviceTag>
+    <serviceTag>4SXYDC2</serviceTag>
+    <serviceTag>7WXYDC2</serviceTag>
+    <serviceTag>9C83J72</serviceTag>
+  </image>
+  <image>
+    <model>Alienware 15 R3 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>825X7H2</serviceTag>
+  </image>
+  <image>
+    <model>Alienware 15 R3 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>825GLH2</serviceTag>
+    <serviceTag>CLC56H2</serviceTag>
+  </image>
+  <image>
+    <model>Alienware 17 R3 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>D0QX362</serviceTag>
+  </image>
+  <image>
+    <model>Alienware 17 R3 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>2M26HC2</serviceTag>
+    <serviceTag>5KRMDC2</serviceTag>
+    <serviceTag>7SXTDC2</serviceTag>
+    <serviceTag>9H03J72</serviceTag>
+    <serviceTag>9J03J72</serviceTag>
+    <serviceTag>9K03J72</serviceTag>
+    <serviceTag>9Q03J72</serviceTag>
+    <serviceTag>9Y03J72</serviceTag>
+    <serviceTag>DFRYL72</serviceTag>
+    <serviceTag>DMR3L72</serviceTag>
+    <serviceTag>HM26HC2</serviceTag>
+    <serviceTag>JM5MJC2</serviceTag>
+    <serviceTag>JZDMJC2</serviceTag>
+  </image>
+  <image>
+    <model>Alienware 17 R3 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>J95MJC2</serviceTag>
+  </image>
+  <image>
+    <model>Alienware 17 R4 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>6L756H2</serviceTag>
+  </image>
+  <image>
+    <model>Alienware 17 R4 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>CLY56H2</serviceTag>
+  </image>
+  <image>
+    <model>Alienware X51 R3 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>CW4N082</serviceTag>
+  </image>
+  <image>
+    <model>ChengMing 3967 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>4M26HJ2</serviceTag>
+    <serviceTag>4M26HP2</serviceTag>
+  </image>
+  <image>
+    <model>Dell G3 3579 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>5KR9DQ2</serviceTag>
+    <serviceTag>DFR3LR2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 660 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>FQBBBY1</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron One 2020 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>FQBBDY1</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 3052 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>8DPR872</serviceTag>
+    <serviceTag>DFR3872</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 3059 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>8DPR772</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 11 3162/3164 (Win 10 SL 64-Bit Compact)</model>
+    <systems>W10SC</systems>
+    <serviceTag>7SXY1C2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 11 3168 (Win 10 Home 64-Bit Compact)</model>
+    <systems>W10HC</systems>
+    <serviceTag>5KR92C2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 3252 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>80QX3G2</serviceTag>
+    <serviceTag>9W4N082</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 3265 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>46T3872</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 3442 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>4W7CF32</serviceTag>
+    <serviceTag>5KR9D32</serviceTag>
+    <serviceTag>6KGQF22</serviceTag>
+    <serviceTag>CL75642</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 3442 (Win 10 SL 64-Bit)</model>
+    <systems>W10S</systems>
+    <serviceTag>2W4NF82</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 3443 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>4W7CC32</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 3459 (Win 10 SL 64-Bit)</model>
+    <systems>W10S</systems>
+    <serviceTag>825G772</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 14 3459 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>5KR90C2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 24 3464 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>46T3972</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 24 3464 (Win 10 SL 64-Bit)</model>
+    <systems>W10S</systems>
+    <serviceTag>825GZH2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 14 3468 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>6F5HWJ2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 3541 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>4W7CB32</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 3542 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>4W7C432</serviceTag>
+    <serviceTag>6F5HH52</serviceTag>
+    <serviceTag>DFR3L52</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 3543 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>4W7C932</serviceTag>
+    <serviceTag>8DPRJ52</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 3552 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>4M265C2</serviceTag>
+    <serviceTag>DFR3LJ2</serviceTag>
+    <serviceTag>JZ5M0C2</serviceTag>
+    <serviceTag>JZ5M3C2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 3552 (Win 10 SL 64-Bit)</model>
+    <systems>W10S</systems>
+    <serviceTag>6F5HKJ2</serviceTag>
+    <serviceTag>7SXYD82</serviceTag>
+    <serviceTag>CL756F2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 15 3555 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>5KR9D82</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 3558 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>2W4N0F2</serviceTag>
+    <serviceTag>2W4NC82</serviceTag>
+    <serviceTag>7SXY0C2</serviceTag>
+    <serviceTag>7SXY4C2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 3558 (Win 10 SL 64-Bit)</model>
+    <systems>W10S</systems>
+    <serviceTag>4M26HB2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 3558 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>2W4NB82</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 15 3567 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>6F5HRJ2</serviceTag>
+    <serviceTag>6F5HTJ2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 15 3567 (Win 10 SL 64-Bit)</model>
+    <systems>W10S</systems>
+    <serviceTag>7SXYDL2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 15 3567 (Ubuntu)</model>
+    <systems>U</systems>
+    <serviceTag>6F5HQJ2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 15 3576 (Win 10 SL 64-Bit)</model>
+    <systems>W10S</systems>
+    <serviceTag>5KR9DL2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 3647 (Win 7 SP1 Home Basic 64-Bit)</model>
+    <systems>W7H64</systems>
+    <serviceTag>8DPRS72</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 3647 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>2W4B082</serviceTag>
+    <serviceTag>2W4C082</serviceTag>
+    <serviceTag>2W4D082</serviceTag>
+    <serviceTag>4W7CG32</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 3650 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>5KR91C2</serviceTag>
+    <serviceTag>8DPRJB2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 3650 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>46T3KF2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 3650 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>6F50HJ2</serviceTag>
+    <serviceTag>6F51HJ2</serviceTag>
+    <serviceTag>6F52HJ2</serviceTag>
+    <serviceTag>6F54HJ2</serviceTag>
+    <serviceTag>6F55HJ2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 3668 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>80QX3L2</serviceTag>
+    <serviceTag>CL75JH2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 3668 (Win 10 SL 64-Bit)</model>
+    <systems>W10S</systems>
+    <serviceTag>BF5HHJ2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 3847 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>8X8PLN1</serviceTag>
+    <serviceTag>8W4N082</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 13 5368 2-in-1 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>5KR95C2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 13 5378 2-in-1 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>4M263C2</serviceTag>
+    <serviceTag>4M264C2</serviceTag>
+    <serviceTag>4W7C1F2</serviceTag>
+    <serviceTag>80QX3C2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 13 5378 2-in-1 (Win 10 SL 64-Bit)</model>
+    <systems>W10S</systems>
+    <serviceTag>4W7C1C2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 13 5379 2-in-1 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>CL756L2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5455 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>46TDK72</serviceTag>
+    <serviceTag>D6R3L72</serviceTag>
+    <serviceTag>D9R3L72</serviceTag>
+    <serviceTag>DBR3L72</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5457 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>9C03G72</serviceTag>
+    <serviceTag>9C03H72</serviceTag>
+    <serviceTag>9C0GJ72</serviceTag>
+    <serviceTag>9C53J72</serviceTag>
+    <serviceTag>9CV3J72</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5458 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>5KRRDC2</serviceTag>
+    <serviceTag>7SXPDC2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5458 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>CC03J72</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5459 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>806X362</serviceTag>
+    <serviceTag>JZLMJC2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5459 (Win 10 SL 64-Bit)</model>
+    <systems>W10S</systems>
+    <serviceTag>DFW3L72</serviceTag>
+    <serviceTag>JZFMJC2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 24 5488 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>CL75YH2</serviceTag>
+    <serviceTag>DFR3972</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5547 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>8DPRJ22</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5548 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>6F5HH22</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5551 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>GC03J72</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5552 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>7SYYDC2</serviceTag>
+    <serviceTag>80QD362</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5555 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>8MPRJ72</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5555 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>30QX362</serviceTag>
+    <serviceTag>4613K72</serviceTag>
+    <serviceTag>4M20HC2</serviceTag>
+    <serviceTag>4YT3K72</serviceTag>
+    <serviceTag>5SXYDC2</serviceTag>
+    <serviceTag>6BGQFC2</serviceTag>
+    <serviceTag>6K3QFC2</serviceTag>
+    <serviceTag>6KG1FC2</serviceTag>
+    <serviceTag>6KG5FC2</serviceTag>
+    <serviceTag>6KGQSC2</serviceTag>
+    <serviceTag>6MGQFC2</serviceTag>
+    <serviceTag>6NGQFC2</serviceTag>
+    <serviceTag>6QGQFC2</serviceTag>
+    <serviceTag>7KXYDC2</serviceTag>
+    <serviceTag>7SXYMC2</serviceTag>
+    <serviceTag>808X362</serviceTag>
+    <serviceTag>80KX362</serviceTag>
+    <serviceTag>80QH362</serviceTag>
+    <serviceTag>80QN362</serviceTag>
+    <serviceTag>80QP362</serviceTag>
+    <serviceTag>80QS362</serviceTag>
+    <serviceTag>80QT362</serviceTag>
+    <serviceTag>80RX362</serviceTag>
+    <serviceTag>86QX362</serviceTag>
+    <serviceTag>89PRJ72</serviceTag>
+    <serviceTag>8CPRJ72</serviceTag>
+    <serviceTag>8DPWJ72</serviceTag>
+    <serviceTag>8RPRJ72</serviceTag>
+    <serviceTag>8SQX362</serviceTag>
+    <serviceTag>8VQX362</serviceTag>
+    <serviceTag>8XQX362</serviceTag>
+    <serviceTag>9DPRJ72</serviceTag>
+    <serviceTag>9KGQFC2</serviceTag>
+    <serviceTag>9SXYDC2</serviceTag>
+    <serviceTag>CKGQFC2</serviceTag>
+    <serviceTag>CSXYDC2</serviceTag>
+    <serviceTag>DFR3LC2</serviceTag>
+    <serviceTag>FKR9DC2</serviceTag>
+    <serviceTag>HSXYDC2</serviceTag>
+    <serviceTag>JDPRJ72</serviceTag>
+    <serviceTag>JZ5MLC2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5555 (Win 10 SL 64-Bit)</model>
+    <systems>W10S</systems>
+    <serviceTag>1KR9DC2</serviceTag>
+    <serviceTag>4MS6HC2</serviceTag>
+    <serviceTag>53R9DC2</serviceTag>
+    <serviceTag>7KR9DC2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5555 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>46L3K72</serviceTag>
+    <serviceTag>71XYDC2</serviceTag>
+    <serviceTag>77XYDC2</serviceTag>
+    <serviceTag>80QB362</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5557 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>46B3K72</serviceTag>
+    <serviceTag>46P3K72</serviceTag>
+    <serviceTag>46Z3K72</serviceTag>
+    <serviceTag>4H26HC2</serviceTag>
+    <serviceTag>4MF6HC2</serviceTag>
+    <serviceTag>4MR6HC2</serviceTag>
+    <serviceTag>4RT3K72</serviceTag>
+    <serviceTag>4V26HC2</serviceTag>
+    <serviceTag>7DPRJ72</serviceTag>
+    <serviceTag>8D5RJ72</serviceTag>
+    <serviceTag>8D7RJ72</serviceTag>
+    <serviceTag>8DBRJ72</serviceTag>
+    <serviceTag>8DPNJ72</serviceTag>
+    <serviceTag>8DPRG72</serviceTag>
+    <serviceTag>8GPRJ72</serviceTag>
+    <serviceTag>8HPRJ72</serviceTag>
+    <serviceTag>8SPRJ72</serviceTag>
+    <serviceTag>8ZPRJ72</serviceTag>
+    <serviceTag>9C0YJ72</serviceTag>
+    <serviceTag>9M26HC2</serviceTag>
+    <serviceTag>DFRTL72</serviceTag>
+    <serviceTag>GDPRJ72</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5558 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>4W7CQ32</serviceTag>
+    <serviceTag>80Q1362</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5558 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>36T3K72</serviceTag>
+    <serviceTag>46K3K72</serviceTag>
+    <serviceTag>4HT3K72</serviceTag>
+    <serviceTag>69GQFC2</serviceTag>
+    <serviceTag>6DGQFC2</serviceTag>
+    <serviceTag>76T3K72</serviceTag>
+    <serviceTag>801X362</serviceTag>
+    <serviceTag>80DX362</serviceTag>
+    <serviceTag>80FX362</serviceTag>
+    <serviceTag>80LX362</serviceTag>
+    <serviceTag>80PX362</serviceTag>
+    <serviceTag>80Q8362</serviceTag>
+    <serviceTag>80QX062</serviceTag>
+    <serviceTag>80QX162</serviceTag>
+    <serviceTag>80SX362</serviceTag>
+    <serviceTag>80TX362</serviceTag>
+    <serviceTag>80VX362</serviceTag>
+    <serviceTag>8DFRJ72</serviceTag>
+    <serviceTag>8DPGJ72</serviceTag>
+    <serviceTag>8DPJJ72</serviceTag>
+    <serviceTag>8DPSJ72</serviceTag>
+    <serviceTag>8TQX362</serviceTag>
+    <serviceTag>8WQX362</serviceTag>
+    <serviceTag>8YQX362</serviceTag>
+    <serviceTag>9C05J72</serviceTag>
+    <serviceTag>DFR3G72</serviceTag>
+    <serviceTag>F0QX362</serviceTag>
+    <serviceTag>H6T3K72</serviceTag>
+    <serviceTag>JT5MJC2</serviceTag>
+    <serviceTag>JV5MJC2</serviceTag>
+    <serviceTag>JZ5QJC2</serviceTag>
+    <serviceTag>JZTMJC2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5558 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>8QQX362</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5558 (Win 10 SL 64-Bit)</model>
+    <systems>W10S</systems>
+    <serviceTag>46T3J72</serviceTag>
+    <serviceTag>4W7C162</serviceTag>
+    <serviceTag>80YX362</serviceTag>
+    <serviceTag>9CY3J72</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5559 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>8D9RJ72</serviceTag>
+    <serviceTag>8DP5J72</serviceTag>
+    <serviceTag>DFJ3L72</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5559 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>1SXYDC2</serviceTag>
+    <serviceTag>3KGQFC2</serviceTag>
+    <serviceTag>45T3K72</serviceTag>
+    <serviceTag>4603K72</serviceTag>
+    <serviceTag>46T3H72</serviceTag>
+    <serviceTag>46T7K72</serviceTag>
+    <serviceTag>46T8K72</serviceTag>
+    <serviceTag>4M16HC2</serviceTag>
+    <serviceTag>4M26MC2</serviceTag>
+    <serviceTag>4M27HC2</serviceTag>
+    <serviceTag>4M36HC2</serviceTag>
+    <serviceTag>4M86HC2</serviceTag>
+    <serviceTag>4MG6HC2</serviceTag>
+    <serviceTag>4ML6HC2</serviceTag>
+    <serviceTag>4MW6HC2</serviceTag>
+    <serviceTag>4MX6HC2</serviceTag>
+    <serviceTag>4Z26HC2</serviceTag>
+    <serviceTag>5KR8DC2</serviceTag>
+    <serviceTag>5KR9RC2</serviceTag>
+    <serviceTag>5KRTDC2</serviceTag>
+    <serviceTag>66T3K72</serviceTag>
+    <serviceTag>6HGQFC2</serviceTag>
+    <serviceTag>6K7QFC2</serviceTag>
+    <serviceTag>6K9QFC2</serviceTag>
+    <serviceTag>6KG6FC2</serviceTag>
+    <serviceTag>6KG9FC2</serviceTag>
+    <serviceTag>6KGBFC2</serviceTag>
+    <serviceTag>6SGQFC2</serviceTag>
+    <serviceTag>6WGQFC2</serviceTag>
+    <serviceTag>7S8YDC2</serviceTag>
+    <serviceTag>7SJYDC2</serviceTag>
+    <serviceTag>7SRYDC2</serviceTag>
+    <serviceTag>7SXVDC2</serviceTag>
+    <serviceTag>7SXYNC2</serviceTag>
+    <serviceTag>7SZYDC2</serviceTag>
+    <serviceTag>802X362</serviceTag>
+    <serviceTag>85PRJ72</serviceTag>
+    <serviceTag>8DPCJ72</serviceTag>
+    <serviceTag>9C03S72</serviceTag>
+    <serviceTag>9C0HJ72</serviceTag>
+    <serviceTag>9CT3J72</serviceTag>
+    <serviceTag>B6T3K72</serviceTag>
+    <serviceTag>DFR3Q72</serviceTag>
+    <serviceTag>DFRZL72</serviceTag>
+    <serviceTag>FKGQFC2</serviceTag>
+    <serviceTag>J05MJC2</serviceTag>
+    <serviceTag>J25MJC2</serviceTag>
+    <serviceTag>J6T3K72</serviceTag>
+    <serviceTag>JK5MJC2</serviceTag>
+    <serviceTag>JKR9DC2</serviceTag>
+    <serviceTag>JL5MJC2</serviceTag>
+    <serviceTag>JZ5MPC2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5559 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>5KM9DC2</serviceTag>
+    <serviceTag>80QL362</serviceTag>
+    <serviceTag>8DPMJ72</serviceTag>
+    <serviceTag>9S03J72</serviceTag>
+    <serviceTag>9W03J72</serviceTag>
+    <serviceTag>DFR9L72</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5559 (Win 10 SL 64-Bit)</model>
+    <systems>W10S</systems>
+    <serviceTag>46T5K72</serviceTag>
+    <serviceTag>46X3K72</serviceTag>
+    <serviceTag>5K09DC2</serviceTag>
+    <serviceTag>5KN9DC2</serviceTag>
+    <serviceTag>5PR9DC2</serviceTag>
+    <serviceTag>6KGYFC2</serviceTag>
+    <serviceTag>6KR9DC2</serviceTag>
+    <serviceTag>78XYDC2</serviceTag>
+    <serviceTag>7SWYDC2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5559 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>1DPRJ72</serviceTag>
+    <serviceTag>46T3Q72</serviceTag>
+    <serviceTag>6DPRJ72</serviceTag>
+    <serviceTag>6KGWFC2</serviceTag>
+    <serviceTag>7SPYDC2</serviceTag>
+    <serviceTag>80PRJ72</serviceTag>
+    <serviceTag>81PRJ72</serviceTag>
+    <serviceTag>86PRJ72</serviceTag>
+    <serviceTag>88PRJ72</serviceTag>
+    <serviceTag>8DCRJ72</serviceTag>
+    <serviceTag>8DJRJ72</serviceTag>
+    <serviceTag>8DLRJ72</serviceTag>
+    <serviceTag>8DVRJ72</serviceTag>
+    <serviceTag>8DPRR72</serviceTag>
+    <serviceTag>8JPRJ72</serviceTag>
+    <serviceTag>8KPRJ72</serviceTag>
+    <serviceTag>8NPRJ72</serviceTag>
+    <serviceTag>8TPRJ72</serviceTag>
+    <serviceTag>8YPRJ72</serviceTag>
+    <serviceTag>9C03N72</serviceTag>
+    <serviceTag>9CP3J72</serviceTag>
+    <serviceTag>DFR5L72</serviceTag>
+    <serviceTag>HDPRJ72</serviceTag>
+    <serviceTag>JZ5DJC2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 15 5565 (Win 10 SL 64-Bit)</model>
+    <systems>W10S</systems>
+    <serviceTag>46T3K22</serviceTag>
+    <serviceTag>4W7CY32</serviceTag>
+    <serviceTag>7SXYSC2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 15 5565 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>46TSK72</serviceTag>
+    <serviceTag>5KR9NC2</serviceTag>
+    <serviceTag>DQR3L72</serviceTag>
+    <serviceTag>DSR3L72</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 15 5566 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>82567H2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 15 5566 (Win 10 SL 64-Bit)</model>
+    <systems>W10S</systems>
+    <serviceTag>6KGQFP2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 15 5567 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>5KR9PC2</serviceTag>
+    <serviceTag>7SXYQC2</serviceTag>
+    <serviceTag>DFH3L72</serviceTag>
+    <serviceTag>DFT3L72</serviceTag>
+    <serviceTag>JZ5MJ22</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 15 5567 (Win 10 SL 64-Bit)</model>
+    <systems>W10S</systems>
+    <serviceTag>46TGK72</serviceTag>
+    <serviceTag>46TKK72</serviceTag>
+    <serviceTag>46TLK72</serviceTag>
+    <serviceTag>9FR3L72</serviceTag>
+    <serviceTag>DF63L72</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 15 5567 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>46T3L72</serviceTag>
+    <serviceTag>CFR3L72</serviceTag>
+    <serviceTag>D4R3L72</serviceTag>
+    <serviceTag>D7R3L72</serviceTag>
+    <serviceTag>DFQ3L72</serviceTag>
+    <serviceTag>DFR2L72</serviceTag>
+    <serviceTag>DFY3L72</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5570 (Win 10 Home 64-Bit / Win 10 SL 64-Bit)</model>
+    <systems>W10H,W10S</systems>
+    <serviceTag>7SXYDP2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5570 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>4W7C142</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 15 5577 Gaming (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>CL75RH2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 15 5577 Gaming (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>80QX3K2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 15 5579 2-in-1 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>6F5HSJ2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5580 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>4W7C1P2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5748 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>4W7C632</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5755 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>89QX362</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5755 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>46Y3K72</serviceTag>
+    <serviceTag>6KGRFC2</serviceTag>
+    <serviceTag>80CX362</serviceTag>
+    <serviceTag>80GX362</serviceTag>
+    <serviceTag>80MX362</serviceTag>
+    <serviceTag>8BQX362</serviceTag>
+    <serviceTag>8DP9J72</serviceTag>
+    <serviceTag>8DQX362</serviceTag>
+    <serviceTag>8GQX362</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5758 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>4MK6HC2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5758 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>46V3K72</serviceTag>
+    <serviceTag>9CF3J72</serviceTag>
+    <serviceTag>9CL3J72</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5758 (Win 10 SL 64-Bit)</model>
+    <systems>W10S</systems>
+    <serviceTag>5TR9DC2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5759 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>4B26HC2</serviceTag>
+    <serviceTag>6KGQQC2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5759 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>46TCK72</serviceTag>
+    <serviceTag>5K79DC2</serviceTag>
+    <serviceTag>5KH9DC2</serviceTag>
+    <serviceTag>5KL9DC2</serviceTag>
+    <serviceTag>5KRVDC2</serviceTag>
+    <serviceTag>6KG0FC2</serviceTag>
+    <serviceTag>6KGNFC2</serviceTag>
+    <serviceTag>7SXMDC2</serviceTag>
+    <serviceTag>80Q4362</serviceTag>
+    <serviceTag>9C0JJ72</serviceTag>
+    <serviceTag>CLV56H2</serviceTag>
+    <serviceTag>DFK3L72</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5759 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>1C03J72</serviceTag>
+    <serviceTag>9203J72</serviceTag>
+    <serviceTag>DC03J72</serviceTag>
+    <serviceTag>JZGMJC2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5759 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>80QX562</serviceTag>
+    <serviceTag>9C0MJ72</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 17 5767 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>JFR3L72</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5770 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>2W4N042</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 7348 2-in-1 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>JZ5MJ52</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 7353 2-in-1 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>2W4ND82</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 7359 2-in-1 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>2W4N982</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 13 7378 2-in-1(Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>4M261C2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 7380 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>80QX3P2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 14 7447 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>46T3K42</serviceTag>
+    <serviceTag>80QX962</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 14 7460 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>82587H2</serviceTag>
+    <serviceTag>CL656H2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 14 7460 (Win 10 SL 64-Bit)</model>
+    <systems>W10S</systems>
+    <serviceTag>3L756H2</serviceTag>
+    <serviceTag>82DG7H2</serviceTag>
+    <serviceTag>C2756H2</serviceTag>
+    <serviceTag>CLL56H2</serviceTag>
+    <serviceTag>CN756H2</serviceTag>
+    <serviceTag>CT756H2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 14 7460 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>525G7H2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 14 Gaming 7466 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>DFZ3L72</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 7558 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>46T3K52</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 15 7000 Series 7559 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>825GQH2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 15 7560 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>8FR3L72</serviceTag>
+    <serviceTag>DCR3L72</serviceTag>
+    <serviceTag>DFF3L72</serviceTag>
+    <serviceTag>DFP3L72</serviceTag>
+    <serviceTag>DFR4L72</serviceTag>
+    <serviceTag>DFR6L72</serviceTag>
+    <serviceTag>DGR3L72</serviceTag>
+    <serviceTag>DTR3L72</serviceTag>
+    <serviceTag>HFR3L72</serviceTag>
+    <serviceTag>JZ5MNC2</serviceTag>
+    <serviceTag>JZ5MTC2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 15 Gaming 7566 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>7SXYTC2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 15 Gaming 7566 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>FFR3L72</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 15 Gaming 7577 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>825GMH2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 15 7579 2-in-1 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>JZ5M2C2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 3150 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>6KGQ0C2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 3180 (Win 10 Pro 64-Bit / Win 10 Pro S 64-Bit / Win 10 Pro S 64-Bit Compact)</model>
+    <systems>W10P,W10PS,W10PSC</systems>
+    <serviceTag>5L756H2</serviceTag>
+    <serviceTag>CD756H2</serviceTag>
+    <serviceTag>CL156H2</serviceTag>
+    <serviceTag>CQ756H2</serviceTag>
+    <serviceTag>CZ756H2</serviceTag>
+    <serviceTag>GL756H2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 3189 (Win 10 Pro 64-Bit / Win 10 Pro S 64-Bit / Win 10 Pro S 64-Bit Compact)</model>
+    <systems>W10P,W10PS,W10PSC</systems>
+    <serviceTag>4M26HM2</serviceTag>
+    <serviceTag>825G8H2</serviceTag>
+    <serviceTag>82RG7H2</serviceTag>
+    <serviceTag>C6756H2</serviceTag>
+    <serviceTag>FL756H2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 13 3380 Laptop (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>6F5HMJ2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 3460 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>2W4N0C2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 3470 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>7SXY3C2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 3490 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>DFR3LP2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 3540 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>4W7CX32</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 3550 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>4W7CZ32</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 3570 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>4M260C2</serviceTag>
+    <serviceTag>JZ5M1C2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 3570 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>JZ5M4C2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 5175 2-in-1 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>7PXYDC2</serviceTag>
+    <serviceTag>7TXYDC2</serviceTag>
+    <serviceTag>7XXYDC2</serviceTag>
+    <serviceTag>BSXYDC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 5175 2-in-1 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>3KR9DC2</serviceTag>
+    <serviceTag>4M26GC2</serviceTag>
+    <serviceTag>J15MJC2</serviceTag>
+    <serviceTag>JZZMJC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5250/5250 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>4663K72</serviceTag>
+    <serviceTag>8PPRJ72</serviceTag>
+    <serviceTag>8VPRJ72</serviceTag>
+    <serviceTag>8XPRJ72</serviceTag>
+    <serviceTag>9C0QJ72</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5250/5250 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>DVR3L72</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5250/5250 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>JZ5MFC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5270 Laptop (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>3FR3L72</serviceTag>
+    <serviceTag>4426HC2</serviceTag>
+    <serviceTag>66GQFC2</serviceTag>
+    <serviceTag>BKR9DC2</serviceTag>
+    <serviceTag>C0756H2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5270 Laptop (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>5GR9DC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5270 Laptop (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>46TFK72</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5270 Laptop (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>4MM6HC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 5280/5288 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>825R7H2</serviceTag>
+    <serviceTag>82YG7H2</serviceTag>
+    <serviceTag>8S5G7H2</serviceTag>
+    <serviceTag>8V5G7H2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 5280/5288 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>82NG7H2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 5285 2-in-1 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>825D7H2</serviceTag>
+    <serviceTag>CL753H2</serviceTag>
+    <serviceTag>JZ5MJM2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 5289 2-in-1 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>826G7H2</serviceTag>
+    <serviceTag>8Z5G7H2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 5290 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>8X8PLQ2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5430 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>658PZW1</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5440 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>JZ5MJ12</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5440 (Win 7 SP1 Pro 64-Bit / Win 8.1 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>4W7CM32</serviceTag>
+    <serviceTag>FQBBTY1</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5450/5450 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>10QX362</serviceTag>
+    <serviceTag>26T3K72</serviceTag>
+    <serviceTag>2C03J72</serviceTag>
+    <serviceTag>46F3K72</serviceTag>
+    <serviceTag>46H3K72</serviceTag>
+    <serviceTag>46Q3K72</serviceTag>
+    <serviceTag>46T6K72</serviceTag>
+    <serviceTag>4BT3K72</serviceTag>
+    <serviceTag>4W7CS32</serviceTag>
+    <serviceTag>6C03J72</serviceTag>
+    <serviceTag>70QX362</serviceTag>
+    <serviceTag>804X362</serviceTag>
+    <serviceTag>805X362</serviceTag>
+    <serviceTag>80Q9362</serviceTag>
+    <serviceTag>80QC362</serviceTag>
+    <serviceTag>80QG362</serviceTag>
+    <serviceTag>80QK362</serviceTag>
+    <serviceTag>80ZX362</serviceTag>
+    <serviceTag>81QX362</serviceTag>
+    <serviceTag>87QX362</serviceTag>
+    <serviceTag>8CQX362</serviceTag>
+    <serviceTag>8D0RJ72</serviceTag>
+    <serviceTag>8D3RJ72</serviceTag>
+    <serviceTag>8D8RJ72</serviceTag>
+    <serviceTag>8DPRD72</serviceTag>
+    <serviceTag>8DPYJ72</serviceTag>
+    <serviceTag>8FQX362</serviceTag>
+    <serviceTag>8MQX362</serviceTag>
+    <serviceTag>8NQX362</serviceTag>
+    <serviceTag>90QX362</serviceTag>
+    <serviceTag>9303J72</serviceTag>
+    <serviceTag>9403J72</serviceTag>
+    <serviceTag>9C09J72</serviceTag>
+    <serviceTag>9C33J72</serviceTag>
+    <serviceTag>9CQ3J72</serviceTag>
+    <serviceTag>9F03J72</serviceTag>
+    <serviceTag>9M03J72</serviceTag>
+    <serviceTag>9X03J72</serviceTag>
+    <serviceTag>D6T3K72</serviceTag>
+    <serviceTag>DFR3D72</serviceTag>
+    <serviceTag>DFRDL72</serviceTag>
+    <serviceTag>DFRKL72</serviceTag>
+    <serviceTag>DFRVL72</serviceTag>
+    <serviceTag>FC03J72</serviceTag>
+    <serviceTag>H0QX362</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5450/5450 (Win 7 SP1 Pro 64-Bit / Win 8.1 64-Bit)</model>
+    <systems>W7P64,W8</systems>
+    <serviceTag>80QW362</serviceTag>
+    <serviceTag>9003J72</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5450/5450 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>51R9DC2</serviceTag>
+    <serviceTag>56R9DC2</serviceTag>
+    <serviceTag>6KCQFC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5450/5450 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>50QX362</serviceTag>
+    <serviceTag>60QX362</serviceTag>
+    <serviceTag>800X362</serviceTag>
+    <serviceTag>84QX362</serviceTag>
+    <serviceTag>8DHRJ72</serviceTag>
+    <serviceTag>8DMRJ72</serviceTag>
+    <serviceTag>8DPVJ72</serviceTag>
+    <serviceTag>8PQX362</serviceTag>
+    <serviceTag>8RQX362</serviceTag>
+    <serviceTag>DFR3M72</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5450/5450 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>8D2RJ72</serviceTag>
+    <serviceTag>8DP3J72</serviceTag>
+    <serviceTag>9CD3J72</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5470 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>5CR9DC2</serviceTag>
+    <serviceTag>5K59DC2</serviceTag>
+    <serviceTag>5KRPDC2</serviceTag>
+    <serviceTag>6XGQFC2</serviceTag>
+    <serviceTag>6YGQFC2</serviceTag>
+    <serviceTag>70XYDC2</serviceTag>
+    <serviceTag>7CXYDC2</serviceTag>
+    <serviceTag>7HXYDC2</serviceTag>
+    <serviceTag>D2R3L72</serviceTag>
+    <serviceTag>DFRLL72</serviceTag>
+    <serviceTag>JZ56JC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5470 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>2SXYDC2</serviceTag>
+    <serviceTag>4D26HC2</serviceTag>
+    <serviceTag>4M26FC2</serviceTag>
+    <serviceTag>4M26TC2</serviceTag>
+    <serviceTag>4M46HC2</serviceTag>
+    <serviceTag>4M56HC2</serviceTag>
+    <serviceTag>4M66HC2</serviceTag>
+    <serviceTag>4MB6HC2</serviceTag>
+    <serviceTag>4MV6HC2</serviceTag>
+    <serviceTag>4S26HC2</serviceTag>
+    <serviceTag>5K19DC2</serviceTag>
+    <serviceTag>5KD9DC2</serviceTag>
+    <serviceTag>5KR9HC2</serviceTag>
+    <serviceTag>5KR9QC2</serviceTag>
+    <serviceTag>67GQFC2</serviceTag>
+    <serviceTag>68GQFC2</serviceTag>
+    <serviceTag>6CGQFC2</serviceTag>
+    <serviceTag>6K6QFC2</serviceTag>
+    <serviceTag>6KG7FC2</serviceTag>
+    <serviceTag>6KGHFC2</serviceTag>
+    <serviceTag>6KGLFC2</serviceTag>
+    <serviceTag>6KGQNC2</serviceTag>
+    <serviceTag>6KGZFC2</serviceTag>
+    <serviceTag>7LXYDC2</serviceTag>
+    <serviceTag>7VXYDC2</serviceTag>
+    <serviceTag>7S7YDC2</serviceTag>
+    <serviceTag>7SKYDC2</serviceTag>
+    <serviceTag>7SLYDC2</serviceTag>
+    <serviceTag>7SNYDC2</serviceTag>
+    <serviceTag>7SXNDC2</serviceTag>
+    <serviceTag>7SXRDC2</serviceTag>
+    <serviceTag>7SXYGC2</serviceTag>
+    <serviceTag>8DPRK72</serviceTag>
+    <serviceTag>8J5G7H2</serviceTag>
+    <serviceTag>9C04J72</serviceTag>
+    <serviceTag>9C23J72</serviceTag>
+    <serviceTag>9C93J72</serviceTag>
+    <serviceTag>D5R3L72</serviceTag>
+    <serviceTag>DF73L72</serviceTag>
+    <serviceTag>DF93L72</serviceTag>
+    <serviceTag>DFR8L72</serviceTag>
+    <serviceTag>DFRFL72</serviceTag>
+    <serviceTag>DHR3L72</serviceTag>
+    <serviceTag>DSXYDC2</serviceTag>
+    <serviceTag>JKGQFC2</serviceTag>
+    <serviceTag>JZ5WJC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5470 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>46TBK72</serviceTag>
+    <serviceTag>6KGFFC2</serviceTag>
+    <serviceTag>72XYDC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5470 (Win 8.1 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W8,W10P</systems>
+    <serviceTag>2KR9DC2</serviceTag>
+    <serviceTag>5NR9DC2</serviceTag>
+    <serviceTag>CKR9DC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5470 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>5KR9FC2</serviceTag>
+    <serviceTag>7FXYDC2</serviceTag>
+    <serviceTag>DM26HC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5470 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>3DPRJ72</serviceTag>
+    <serviceTag>46TVK72</serviceTag>
+    <serviceTag>4DPRJ72</serviceTag>
+    <serviceTag>4M2FHC2</serviceTag>
+    <serviceTag>4M76HC2</serviceTag>
+    <serviceTag>4T26HC2</serviceTag>
+    <serviceTag>4W26HC2</serviceTag>
+    <serviceTag>55R9DC2</serviceTag>
+    <serviceTag>5KR9TC2</serviceTag>
+    <serviceTag>6K8QFC2</serviceTag>
+    <serviceTag>6KGQKC2</serviceTag>
+    <serviceTag>6KGXFC2</serviceTag>
+    <serviceTag>7QXYDC2</serviceTag>
+    <serviceTag>7S6YDC2</serviceTag>
+    <serviceTag>7YXYDC2</serviceTag>
+    <serviceTag>7ZXYDC2</serviceTag>
+    <serviceTag>87PRJ72</serviceTag>
+    <serviceTag>8DSRJ72</serviceTag>
+    <serviceTag>8SXYDC2</serviceTag>
+    <serviceTag>9C0PJ72</serviceTag>
+    <serviceTag>CLS56H2</serviceTag>
+    <serviceTag>DF23L72</serviceTag>
+    <serviceTag>FSXYDC2</serviceTag>
+    <serviceTag>JZ4MJC2</serviceTag>
+    <serviceTag>JZ5GJC2</serviceTag>
+    <serviceTag>JZ5SJC2</serviceTag>
+    <serviceTag>JZ7MJC2</serviceTag>
+    <serviceTag>JZXMJC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5470 (Ubuntu)</model>
+    <systems>U</systems>
+    <serviceTag>4L26HC2</serviceTag>
+    <serviceTag>6RGQFC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 5480/5488 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>865G7H2</serviceTag>
+    <serviceTag>8T5G7H2</serviceTag>
+    <serviceTag>8Y5G7H2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 5480/5488 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>CLZ56H2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 5480/5488 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>725G7H2</serviceTag>
+    <serviceTag>82517H2</serviceTag>
+    <serviceTag>82537H2</serviceTag>
+    <serviceTag>82597H2</serviceTag>
+    <serviceTag>825N7H2</serviceTag>
+    <serviceTag>835G7H2</serviceTag>
+    <serviceTag>875G7H2</serviceTag>
+    <serviceTag>8DPRJM2</serviceTag>
+    <serviceTag>8H5G7H2</serviceTag>
+    <serviceTag>8K5G7H2</serviceTag>
+    <serviceTag>C3756H2</serviceTag>
+    <serviceTag>CL256H2</serviceTag>
+    <serviceTag>CL716H2</serviceTag>
+    <serviceTag>CL746H2</serviceTag>
+    <serviceTag>CL75FH2</serviceTag>
+    <serviceTag>CL75MH2</serviceTag>
+    <serviceTag>CL75PH2</serviceTag>
+    <serviceTag>CL7P6H2</serviceTag>
+    <serviceTag>CL7V6H2</serviceTag>
+    <serviceTag>CLN56H2</serviceTag>
+    <serviceTag>G25G7H2</serviceTag>
+    <serviceTag>J25G7H2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 5480/5488 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>425G7H2</serviceTag>
+    <serviceTag>CL456H2</serviceTag>
+    <serviceTag>CL75GH2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 5480/5488 (Ubuntu)</model>
+    <systems>U</systems>
+    <serviceTag>82577H2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 5490 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>JZ5MJR2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5530 (Win 7 SP1 Pro 32-Bit)</model>
+    <systems>W7P32</systems>
+    <serviceTag>2J0JLV1</serviceTag>
+    <serviceTag>8X8PLX1</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5530 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>2J0JKV1</serviceTag>
+    <serviceTag>658P9W1</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5540 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>4M26H12</serviceTag>
+    <serviceTag>9C0TJ72</serviceTag>
+    <serviceTag>FQBBYY1</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5540 (Win 7 SP1 Pro 64-Bit / Win 8.1 64-Bit)</model>
+    <systems>W7P64,W8</systems>
+    <serviceTag>46T3K32</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5550/5550 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>46C3K72</serviceTag>
+    <serviceTag>46M3K72</serviceTag>
+    <serviceTag>46W3K72</serviceTag>
+    <serviceTag>80XX362</serviceTag>
+    <serviceTag>85QX362</serviceTag>
+    <serviceTag>8DPTJ72</serviceTag>
+    <serviceTag>8JQX362</serviceTag>
+    <serviceTag>9C00J72</serviceTag>
+    <serviceTag>9C08J72</serviceTag>
+    <serviceTag>9C0DJ72</serviceTag>
+    <serviceTag>9CZ3J72</serviceTag>
+    <serviceTag>DDPRJ72</serviceTag>
+    <serviceTag>FDPRJ72</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5550/5550 (Win 7 SP1 Pro 64-Bit / Win 8.1 64-Bit)</model>
+    <systems>W7P64,W8</systems>
+    <serviceTag>40QX362</serviceTag>
+    <serviceTag>46D3K72</serviceTag>
+    <serviceTag>80QJ362</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5550/5550 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>7S0YDC2</serviceTag>
+    <serviceTag>8DQRJ72</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5550/5550 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>82PRJ72</serviceTag>
+    <serviceTag>8DP6J72</serviceTag>
+    <serviceTag>9C03M72</serviceTag>
+    <serviceTag>9C0KJ72</serviceTag>
+    <serviceTag>9C0SJ72</serviceTag>
+    <serviceTag>9C0VJ72</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5570 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>6KGVFC2</serviceTag>
+    <serviceTag>6KJQFC2</serviceTag>
+    <serviceTag>JZKMJC2</serviceTag>
+    <serviceTag>JZWMJC2</serviceTag>
+  </image>
+  <image>
+    <model>Inspiron 5570 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>2FR3L72</serviceTag>
+    <serviceTag>2KGQFC2</serviceTag>
+    <serviceTag>4226HC2</serviceTag>
+    <serviceTag>4326HC2</serviceTag>
+    <serviceTag>46TRK72</serviceTag>
+    <serviceTag>4726HC2</serviceTag>
+    <serviceTag>4826HC2</serviceTag>
+    <serviceTag>4926HC2</serviceTag>
+    <serviceTag>4G26HC2</serviceTag>
+    <serviceTag>4M2BHC2</serviceTag>
+    <serviceTag>4M2KHC2</serviceTag>
+    <serviceTag>4M2MHC2</serviceTag>
+    <serviceTag>4MH6HC2</serviceTag>
+    <serviceTag>4MJ6HC2</serviceTag>
+    <serviceTag>5K49DC2</serviceTag>
+    <serviceTag>5KR9JC2</serviceTag>
+    <serviceTag>6FR3L72</serviceTag>
+    <serviceTag>6KHQFC2</serviceTag>
+    <serviceTag>6KSQFC2</serviceTag>
+    <serviceTag>6KZQFC2</serviceTag>
+    <serviceTag>5M26HC2</serviceTag>
+    <serviceTag>6TGQFC2</serviceTag>
+    <serviceTag>8DPDJ72</serviceTag>
+    <serviceTag>8DPRJC2</serviceTag>
+    <serviceTag>8DPRL72</serviceTag>
+    <serviceTag>8KGQFC2</serviceTag>
+    <serviceTag>9C63J72</serviceTag>
+    <serviceTag>9KR9DC2</serviceTag>
+    <serviceTag>9Z5MJC2</serviceTag>
+    <serviceTag>CM26HC2</serviceTag>
+    <serviceTag>D0R3L72</serviceTag>
+    <serviceTag>DF03L72</serviceTag>
+    <serviceTag>FZ5MJC2</serviceTag>
+    <serviceTag>J55MJC2</serviceTag>
+    <serviceTag>JW5MJC2</serviceTag>
+    <serviceTag>JY5MJC2</serviceTag>
+    <serviceTag>JZ58JC2</serviceTag>
+    <serviceTag>JZ5CJC2</serviceTag>
+    <serviceTag>JZ5XJC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5570 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>4Y26HC2</serviceTag>
+    <serviceTag>7SXWDC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5570 (Win 8.1 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W8,W10P</systems>
+    <serviceTag>8DPRP72</serviceTag>
+    <serviceTag>JZCMJC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5570 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>3SXYDC2</serviceTag>
+    <serviceTag>4673K72</serviceTag>
+    <serviceTag>46TQK72</serviceTag>
+    <serviceTag>6KXQFC2</serviceTag>
+    <serviceTag>6KYQFC2</serviceTag>
+    <serviceTag>7DXYDC2</serviceTag>
+    <serviceTag>7GXYDC2</serviceTag>
+    <serviceTag>7SXYPC2</serviceTag>
+    <serviceTag>8DZRJ72</serviceTag>
+    <serviceTag>9C01J72</serviceTag>
+    <serviceTag>DF13L72</serviceTag>
+    <serviceTag>J85MJC2</serviceTag>
+    <serviceTag>JZ5MRC2</serviceTag>
+    <serviceTag>JZ5ZJC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E5570 (Ubuntu)</model>
+    <systems>U</systems>
+    <serviceTag>JZ54JC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 5580 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>82507H2</serviceTag>
+    <serviceTag>CL706H2</serviceTag>
+    <serviceTag>CL756H2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 5580 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>225G7H2</serviceTag>
+    <serviceTag>2W4N0G2</serviceTag>
+    <serviceTag>7L756H2</serviceTag>
+    <serviceTag>7SXYDH2</serviceTag>
+    <serviceTag>815G7H2</serviceTag>
+    <serviceTag>820G7H2</serviceTag>
+    <serviceTag>82557H2</serviceTag>
+    <serviceTag>825G9H2</serviceTag>
+    <serviceTag>825GPH2</serviceTag>
+    <serviceTag>825W7H2</serviceTag>
+    <serviceTag>82TG7H2</serviceTag>
+    <serviceTag>8B5G7H2</serviceTag>
+    <serviceTag>8P5G7H2</serviceTag>
+    <serviceTag>8X5G7H2</serviceTag>
+    <serviceTag>B25G7H2</serviceTag>
+    <serviceTag>C8756H2</serviceTag>
+    <serviceTag>CL056H2</serviceTag>
+    <serviceTag>CL776H2</serviceTag>
+    <serviceTag>CL7Z6H2</serviceTag>
+    <serviceTag>CP756H2</serviceTag>
+    <serviceTag>CV756H2</serviceTag>
+    <serviceTag>JL756H2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 5590 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>46T3KR2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E6320 (Win 7 SP1 Pro 32-Bit)</model>
+    <systems>W7P32</systems>
+    <serviceTag>7G5LCS1</serviceTag>
+    <serviceTag>7GBLCS1</serviceTag>
+    <serviceTag>7GTLCS1</serviceTag>
+    <serviceTag>7GX6CS1</serviceTag>
+    <serviceTag>7GXLBS1</serviceTag>
+    <serviceTag>7GXLDS1</serviceTag>
+    <serviceTag>7GXLVS1</serviceTag>
+    <serviceTag>7GXXCS1</serviceTag>
+    <serviceTag>7ZXLCS1</serviceTag>
+    <serviceTag>8GXLCS1</serviceTag>
+    <serviceTag>JGXLCS1</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E6320 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>2J0JVS1</serviceTag>
+    <serviceTag>6GXLCS1</serviceTag>
+    <serviceTag>72XLCS1</serviceTag>
+    <serviceTag>7GGLCS1</serviceTag>
+    <serviceTag>7GVLCS1</serviceTag>
+    <serviceTag>7GX4CS1</serviceTag>
+    <serviceTag>7GX9CS1</serviceTag>
+    <serviceTag>7GXVCS1</serviceTag>
+    <serviceTag>FGXLCS1</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E6420 (Win 7 SP1 Pro 32-Bit)</model>
+    <systems>W7P32</systems>
+    <serviceTag>2J0JGV1</serviceTag>
+    <serviceTag>5GXLCS1</serviceTag>
+    <serviceTag>658PGV1</serviceTag>
+    <serviceTag>70XLCS1</serviceTag>
+    <serviceTag>79XLCS1</serviceTag>
+    <serviceTag>7G1LCS1</serviceTag>
+    <serviceTag>7GCLCS1</serviceTag>
+    <serviceTag>7GKLCS1</serviceTag>
+    <serviceTag>7GQLCS1</serviceTag>
+    <serviceTag>7GWLCS1</serviceTag>
+    <serviceTag>7GX2CS1</serviceTag>
+    <serviceTag>7GX5CS1</serviceTag>
+    <serviceTag>7GX7CS1</serviceTag>
+    <serviceTag>7GX8CS1</serviceTag>
+    <serviceTag>7GXHCS1</serviceTag>
+    <serviceTag>7GXLCS1</serviceTag>
+    <serviceTag>7GXTCS1</serviceTag>
+    <serviceTag>7GXWCS1</serviceTag>
+    <serviceTag>7GYLCS1</serviceTag>
+    <serviceTag>7GZLCS1</serviceTag>
+    <serviceTag>GGXLCS1</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E6420 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>3GXLCS1</serviceTag>
+    <serviceTag>78XLCS1</serviceTag>
+    <serviceTag>7G0LCS1</serviceTag>
+    <serviceTag>7G8LCS1</serviceTag>
+    <serviceTag>7GFLCS1</serviceTag>
+    <serviceTag>7GLLCS1</serviceTag>
+    <serviceTag>7GSLCS1</serviceTag>
+    <serviceTag>7GXZCS1</serviceTag>
+    <serviceTag>7TXLCS1</serviceTag>
+    <serviceTag>7WXLCS1</serviceTag>
+    <serviceTag>7XXLCS1</serviceTag>
+    <serviceTag>BGXLCS1</serviceTag>
+    <serviceTag>JJ0JVV1</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E6430 (Win 7 SP1 Pro 32-Bit)</model>
+    <systems>W7P32</systems>
+    <serviceTag>658P7W1</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E6430 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>FQBBRY1</serviceTag>
+    <serviceTag>FQBBSY1</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E6440 (Win 7 SP1 Home Basic 32-Bit)</model>
+    <systems>W7H32</systems>
+    <serviceTag>80QM362</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E6440 (Win 7 SP1 Pro 32-Bit)</model>
+    <systems>W7P32</systems>
+    <serviceTag>46TTK72</serviceTag>
+    <serviceTag>4QT3K72</serviceTag>
+    <serviceTag>4ST3K72</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E6440 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>4M26H72</serviceTag>
+    <serviceTag>5KB9DC2</serviceTag>
+    <serviceTag>80QY362</serviceTag>
+    <serviceTag>8DPFJ72</serviceTag>
+    <serviceTag>8DPRQ72</serviceTag>
+    <serviceTag>9703J72</serviceTag>
+    <serviceTag>9CM3J72</serviceTag>
+    <serviceTag>BC03J72</serviceTag>
+    <serviceTag>DFR3H72</serviceTag>
+    <serviceTag>DFRBL72</serviceTag>
+    <serviceTag>DFRCL72</serviceTag>
+    <serviceTag>J45MJC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E6520 (Win 7 SP1 Pro 32-Bit)</model>
+    <systems>W7P32</systems>
+    <serviceTag>4GXLCS1</serviceTag>
+    <serviceTag>73XLCS1</serviceTag>
+    <serviceTag>77XLCS1</serviceTag>
+    <serviceTag>7FXLCS1</serviceTag>
+    <serviceTag>7GX3CS1</serviceTag>
+    <serviceTag>7GXGCS1</serviceTag>
+    <serviceTag>7GXLFS1</serviceTag>
+    <serviceTag>7GXQCS1</serviceTag>
+    <serviceTag>7JXLCS1</serviceTag>
+    <serviceTag>7KXLCS1</serviceTag>
+    <serviceTag>7LXLCS1</serviceTag>
+    <serviceTag>7PXLCS1</serviceTag>
+    <serviceTag>9GXLCS1</serviceTag>
+    <serviceTag>DGXLCS1</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E6520 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>7G3LCS1</serviceTag>
+    <serviceTag>7GDLCS1</serviceTag>
+    <serviceTag>7GHLCS1</serviceTag>
+    <serviceTag>7GNLCS1</serviceTag>
+    <serviceTag>7GRLCS1</serviceTag>
+    <serviceTag>7GXDCS1</serviceTag>
+    <serviceTag>7GXLGS1</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E6530 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>2J0VVV1</serviceTag>
+    <serviceTag>2J0WVV1</serviceTag>
+    <serviceTag>2J0XVV1</serviceTag>
+    <serviceTag>658PWW1</serviceTag>
+    <serviceTag>658PYW1</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E6540 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>46S3K72</serviceTag>
+    <serviceTag>46T0K72</serviceTag>
+    <serviceTag>46TJK72</serviceTag>
+    <serviceTag>48T3K72</serviceTag>
+    <serviceTag>49T3K72</serviceTag>
+    <serviceTag>4LT3K72</serviceTag>
+    <serviceTag>56T3K72</serviceTag>
+    <serviceTag>5KF9DC2</serviceTag>
+    <serviceTag>6K1QFC2</serviceTag>
+    <serviceTag>80Q0362</serviceTag>
+    <serviceTag>8DTRJ72</serviceTag>
+    <serviceTag>8DPXJ72</serviceTag>
+    <serviceTag>8DWRJ72</serviceTag>
+    <serviceTag>9C03J12</serviceTag>
+    <serviceTag>9C03P72</serviceTag>
+    <serviceTag>F6T3K72</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E7240 Ultrabook (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>4W7CN32</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E7240 Ultrabook (Win 7 SP1 Pro 64-Bit / Win 8.1 64-Bit)</model>
+    <systems>W7P64,W8</systems>
+    <serviceTag>4W7CK32</serviceTag>
+    <serviceTag>6KGQF12</serviceTag>
+    <serviceTag>7SXYD12</serviceTag>
+    <serviceTag>DFR3L12</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E7240 Ultrabook (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>46T3K12</serviceTag>
+    <serviceTag>DFR3L32</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E7250/7250 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>42T3K72</serviceTag>
+    <serviceTag>4PT3K72</serviceTag>
+    <serviceTag>5KRSDC2</serviceTag>
+    <serviceTag>7SXSDC2</serviceTag>
+    <serviceTag>8DPBJ72</serviceTag>
+    <serviceTag>8HQX362</serviceTag>
+    <serviceTag>8KQX362</serviceTag>
+    <serviceTag>9C03J72</serviceTag>
+    <serviceTag>9C13J72</serviceTag>
+    <serviceTag>9C03Q72</serviceTag>
+    <serviceTag>9CW3J72</serviceTag>
+    <serviceTag>9V03J72</serviceTag>
+    <serviceTag>BW4N082</serviceTag>
+    <serviceTag>C6T3K72</serviceTag>
+    <serviceTag>JC03J72</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E7250/7250 (Win 7 SP1 Pro 64-Bit / Win 8.x 64-Bit)</model>
+    <systems>W7P64,W8</systems>
+    <serviceTag>80QX462</serviceTag>
+    <serviceTag>83PRJ72</serviceTag>
+    <serviceTag>8DP8J72</serviceTag>
+    <serviceTag>9B03J72</serviceTag>
+    <serviceTag>9CN3J72</serviceTag>
+    <serviceTag>J0QX362</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E7250/7250 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>4M23HC2</serviceTag>
+    <serviceTag>5KRNDC2</serviceTag>
+    <serviceTag>DFRNL72</serviceTag>
+    <serviceTag>JZ5MMC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E7250/7250 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>7C03J72</serviceTag>
+    <serviceTag>84PRJ72</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E7250/7250 (Win 8.1 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W8,W10P</systems>
+    <serviceTag>9L03J72</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E7270 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>7SHYDC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E7270 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>4643K72</serviceTag>
+    <serviceTag>46T9K72</serviceTag>
+    <serviceTag>4KR9DC2</serviceTag>
+    <serviceTag>4M22HC2</serviceTag>
+    <serviceTag>4M26LC2</serviceTag>
+    <serviceTag>4MP6HC2</serviceTag>
+    <serviceTag>4Z5MJC2</serviceTag>
+    <serviceTag>5LR9DC2</serviceTag>
+    <serviceTag>60GQFC2</serviceTag>
+    <serviceTag>64GQFC2</serviceTag>
+    <serviceTag>6KG4FC2</serviceTag>
+    <serviceTag>6KGPFC2</serviceTag>
+    <serviceTag>6Z5MJC2</serviceTag>
+    <serviceTag>7RXYDC2</serviceTag>
+    <serviceTag>7S9YDC2</serviceTag>
+    <serviceTag>7STYDC2</serviceTag>
+    <serviceTag>7SX7DC2</serviceTag>
+    <serviceTag>7SXXDC2</serviceTag>
+    <serviceTag>7SXYDC2</serviceTag>
+    <serviceTag>825G3H2</serviceTag>
+    <serviceTag>82QG7H2</serviceTag>
+    <serviceTag>8DPRJ72</serviceTag>
+    <serviceTag>CL7B6H2</serviceTag>
+    <serviceTag>D25G7H2</serviceTag>
+    <serviceTag>DFX3L72</serviceTag>
+    <serviceTag>DNR3L72</serviceTag>
+    <serviceTag>DRR3L72</serviceTag>
+    <serviceTag>DYR3L72</serviceTag>
+    <serviceTag>GSXYDC2</serviceTag>
+    <serviceTag>GZ5MJC2</serviceTag>
+    <serviceTag>H25G7H2</serviceTag>
+    <serviceTag>J75MJC2</serviceTag>
+    <serviceTag>JZ1MJC2</serviceTag>
+    <serviceTag>JZ57JC2</serviceTag>
+    <serviceTag>JZ59JC2</serviceTag>
+    <serviceTag>JZ5MJC2</serviceTag>
+    <serviceTag>JZHMJC2</serviceTag>
+    <serviceTag>JZRMJC2</serviceTag>
+    <serviceTag>JZVMJC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E7270 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>5DR9DC2</serviceTag>
+    <serviceTag>6F5HHC2</serviceTag>
+    <serviceTag>6K0QFC2</serviceTag>
+    <serviceTag>8KR9DC2</serviceTag>
+    <serviceTag>HKR9DC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E7270 (Win 8.1 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W8,W10P</systems>
+    <serviceTag>46TYK72</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E7270 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>7NXYDC2</serviceTag>
+    <serviceTag>DFG3L72</serviceTag>
+    <serviceTag>JD5MJC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E7270 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>4M24HC2</serviceTag>
+    <serviceTag>7MXYDC2</serviceTag>
+    <serviceTag>C4756H2</serviceTag>
+    <serviceTag>CL956H2</serviceTag>
+    <serviceTag>JJ5MJC2</serviceTag>
+    <serviceTag>JS5MJC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E7270 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>5KJ9DC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 7275 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>7JXYDC2</serviceTag>
+    <serviceTag>7S1YDC2</serviceTag>
+    <serviceTag>DFD3L72</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 7280 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>82MG7H2</serviceTag>
+    <serviceTag>8W5G7H2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 7280 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>2W4N0N2</serviceTag>
+    <serviceTag>4L756H2</serviceTag>
+    <serviceTag>6KGQFH2</serviceTag>
+    <serviceTag>82547H2</serviceTag>
+    <serviceTag>825G5H2</serviceTag>
+    <serviceTag>825GGH2</serviceTag>
+    <serviceTag>82ZG7H2</serviceTag>
+    <serviceTag>C5756H2</serviceTag>
+    <serviceTag>CL75QH2</serviceTag>
+    <serviceTag>CL7C6H2</serviceTag>
+    <serviceTag>CLW56H2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 7350 2-in-1 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>76XYDC2</serviceTag>
+    <serviceTag>7SQYDC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 7370 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>5KRYDC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 7370 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>825K7H2</serviceTag>
+    <serviceTag>JZBMJC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E7440 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>FQBBXY1</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E7440 (Win 7 SP1 Pro 64-Bit / Win 8.1 64-Bit)</model>
+    <systems>W7P64,W8</systems>
+    <serviceTag>5KR9D12</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E7440 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>6F5HH12</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E7450 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>2W4N062</serviceTag>
+    <serviceTag>41T3K72</serviceTag>
+    <serviceTag>4653K72</serviceTag>
+    <serviceTag>46G3K72</serviceTag>
+    <serviceTag>46T1K72</serviceTag>
+    <serviceTag>46T3G72</serviceTag>
+    <serviceTag>47T3K72</serviceTag>
+    <serviceTag>4C03J72</serviceTag>
+    <serviceTag>4W7CP32</serviceTag>
+    <serviceTag>4W7CT32</serviceTag>
+    <serviceTag>54R9DC2</serviceTag>
+    <serviceTag>5DPRJ72</serviceTag>
+    <serviceTag>5KQ9DC2</serviceTag>
+    <serviceTag>809X362</serviceTag>
+    <serviceTag>80BX362</serviceTag>
+    <serviceTag>80Q3362</serviceTag>
+    <serviceTag>80QQ362</serviceTag>
+    <serviceTag>80QV362</serviceTag>
+    <serviceTag>80QX362</serviceTag>
+    <serviceTag>80QX662</serviceTag>
+    <serviceTag>82QX362</serviceTag>
+    <serviceTag>86T3K72</serviceTag>
+    <serviceTag>8D6RJ72</serviceTag>
+    <serviceTag>8DP1J72</serviceTag>
+    <serviceTag>8DP2J72</serviceTag>
+    <serviceTag>8DYRJ72</serviceTag>
+    <serviceTag>8ZQX362</serviceTag>
+    <serviceTag>96T3K72</serviceTag>
+    <serviceTag>9C02J72</serviceTag>
+    <serviceTag>9C0BJ72</serviceTag>
+    <serviceTag>9C0NJ72</serviceTag>
+    <serviceTag>9C0XJ72</serviceTag>
+    <serviceTag>9C0ZJ72</serviceTag>
+    <serviceTag>DFR3N72</serviceTag>
+    <serviceTag>DFRPL72</serviceTag>
+    <serviceTag>DFRWL72</serviceTag>
+    <serviceTag>DFRXL72</serviceTag>
+    <serviceTag>G6T3K72</serviceTag>
+    <serviceTag>HC03J72</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E7450 (Win 7 SP1 Pro 64-Bit / Win 8.1 64-Bit)</model>
+    <systems>W7P64,W8</systems>
+    <serviceTag>46J3K72</serviceTag>
+    <serviceTag>80Q7362</serviceTag>
+    <serviceTag>8DPRN72</serviceTag>
+    <serviceTag>9C0WJ72</serviceTag>
+    <serviceTag>DFRHL72</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E7450 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>4M26NC2</serviceTag>
+    <serviceTag>6KG3FC2</serviceTag>
+    <serviceTag>6KGCFC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E7450 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>6KGTFC2</serviceTag>
+    <serviceTag>80HX362</serviceTag>
+    <serviceTag>80QF362</serviceTag>
+    <serviceTag>80QX262</serviceTag>
+    <serviceTag>88QX362</serviceTag>
+    <serviceTag>8QPRJ72</serviceTag>
+    <serviceTag>9C06J72</serviceTag>
+    <serviceTag>9C0LJ72</serviceTag>
+    <serviceTag>DFRML72</serviceTag>
+    <serviceTag>G0QX362</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E7450 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>6KG8FC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E7470 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>46TZK72</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E7470 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>46N3K72</serviceTag>
+    <serviceTag>46TWK72</serviceTag>
+    <serviceTag>46TXK72</serviceTag>
+    <serviceTag>4M21HC2</serviceTag>
+    <serviceTag>4M25HC2</serviceTag>
+    <serviceTag>4M26JC2</serviceTag>
+    <serviceTag>4M26PC2</serviceTag>
+    <serviceTag>4M2JHC2</serviceTag>
+    <serviceTag>4MC6HC2</serviceTag>
+    <serviceTag>4MZ6HC2</serviceTag>
+    <serviceTag>4Q26HC2</serviceTag>
+    <serviceTag>4R26HC2</serviceTag>
+    <serviceTag>4X26HC2</serviceTag>
+    <serviceTag>52R9DC2</serviceTag>
+    <serviceTag>5FR3L72</serviceTag>
+    <serviceTag>5JR9DC2</serviceTag>
+    <serviceTag>5K99DC2</serviceTag>
+    <serviceTag>5KGQFC2</serviceTag>
+    <serviceTag>5KK9DC2</serviceTag>
+    <serviceTag>5KR7DC2</serviceTag>
+    <serviceTag>5KR9DC2</serviceTag>
+    <serviceTag>5KRQDC2</serviceTag>
+    <serviceTag>5VR9DC2</serviceTag>
+    <serviceTag>5Z5MJC2</serviceTag>
+    <serviceTag>63GQFC2</serviceTag>
+    <serviceTag>6JGQFC2</serviceTag>
+    <serviceTag>6KG2FC2</serviceTag>
+    <serviceTag>6KGQPC2</serviceTag>
+    <serviceTag>6KLQFC2</serviceTag>
+    <serviceTag>6KMQFC2</serviceTag>
+    <serviceTag>6KPQFC2</serviceTag>
+    <serviceTag>6KQQFC2</serviceTag>
+    <serviceTag>6KRQFC2</serviceTag>
+    <serviceTag>6KTQFC2</serviceTag>
+    <serviceTag>6KVQFC2</serviceTag>
+    <serviceTag>6KWQFC2</serviceTag>
+    <serviceTag>6LGQFC2</serviceTag>
+    <serviceTag>6PGQFC2</serviceTag>
+    <serviceTag>6VGQFC2</serviceTag>
+    <serviceTag>6ZGQFC2</serviceTag>
+    <serviceTag>73XYDC2</serviceTag>
+    <serviceTag>74XYDC2</serviceTag>
+    <serviceTag>75XYDC2</serviceTag>
+    <serviceTag>79XYDC2</serviceTag>
+    <serviceTag>7S5YDC2</serviceTag>
+    <serviceTag>7SX6DC2</serviceTag>
+    <serviceTag>7SXYFC2</serviceTag>
+    <serviceTag>7SXYKC2</serviceTag>
+    <serviceTag>7Z5MJC2</serviceTag>
+    <serviceTag>8DKRJ72</serviceTag>
+    <serviceTag>8DPRM72</serviceTag>
+    <serviceTag>9C03L72</serviceTag>
+    <serviceTag>9C0FJ72</serviceTag>
+    <serviceTag>9CB3J72</serviceTag>
+    <serviceTag>BFR3L72</serviceTag>
+    <serviceTag>CL786H2</serviceTag>
+    <serviceTag>CZ5MJC2</serviceTag>
+    <serviceTag>D1R3L72</serviceTag>
+    <serviceTag>DDR3L72</serviceTag>
+    <serviceTag>DFN3L72</serviceTag>
+    <serviceTag>DFR3J72</serviceTag>
+    <serviceTag>DFR3S72</serviceTag>
+    <serviceTag>DFRQL72</serviceTag>
+    <serviceTag>DFS3L72</serviceTag>
+    <serviceTag>GFR3L72</serviceTag>
+    <serviceTag>HZ5MJC2</serviceTag>
+    <serviceTag>J35MJC2</serviceTag>
+    <serviceTag>JC5MJC2</serviceTag>
+    <serviceTag>JH5MJC2</serviceTag>
+    <serviceTag>JN5MJC2</serviceTag>
+    <serviceTag>JP5MJC2</serviceTag>
+    <serviceTag>JX5MJC2</serviceTag>
+    <serviceTag>JZ5HJC2</serviceTag>
+    <serviceTag>JZ5LJC2</serviceTag>
+    <serviceTag>JZ5TJC2</serviceTag>
+    <serviceTag>JZ6MJC2</serviceTag>
+    <serviceTag>JZ8MJC2</serviceTag>
+    <serviceTag>JZSMJC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E7470 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>57R9DC2</serviceTag>
+    <serviceTag>59R9DC2</serviceTag>
+    <serviceTag>JZ5MHC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E7470 (Win 8.1 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W8,W10P</systems>
+    <serviceTag>1Z5MJC2</serviceTag>
+    <serviceTag>2Z5MJC2</serviceTag>
+    <serviceTag>58R9DC2</serviceTag>
+    <serviceTag>DZ5MJC2</serviceTag>
+    <serviceTag>JZ5VJC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E7470 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>46TPK72</serviceTag>
+    <serviceTag>4WT3K72</serviceTag>
+    <serviceTag>5K29DC2</serviceTag>
+    <serviceTag>5KR6DC2</serviceTag>
+    <serviceTag>65GQFC2</serviceTag>
+    <serviceTag>6FGQFC2</serviceTag>
+    <serviceTag>6GGQFC2</serviceTag>
+    <serviceTag>6M26HC2</serviceTag>
+    <serviceTag>7SCYDC2</serviceTag>
+    <serviceTag>7SMYDC2</serviceTag>
+    <serviceTag>7SXQDC2</serviceTag>
+    <serviceTag>825C7H2</serviceTag>
+    <serviceTag>825V7H2</serviceTag>
+    <serviceTag>82KG7H2</serviceTag>
+    <serviceTag>8N5G7H2</serviceTag>
+    <serviceTag>8DDRJ72</serviceTag>
+    <serviceTag>8R5G7H2</serviceTag>
+    <serviceTag>CLT56H2</serviceTag>
+    <serviceTag>DF33L72</serviceTag>
+    <serviceTag>DFB3L72</serviceTag>
+    <serviceTag>DFL3L72</serviceTag>
+    <serviceTag>DJR3L72</serviceTag>
+    <serviceTag>DKR9DC2</serviceTag>
+    <serviceTag>GM26HC2</serviceTag>
+    <serviceTag>JB5MJC2</serviceTag>
+    <serviceTag>JQ5MJC2</serviceTag>
+    <serviceTag>JR5MJC2</serviceTag>
+    <serviceTag>JZNMJC2</serviceTag>
+    <serviceTag>JZQMJC2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude E7470 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>DFM3L72</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 7480 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>825L7H2</serviceTag>
+    <serviceTag>825Z7H2</serviceTag>
+    <serviceTag>9L756H2</serviceTag>
+    <serviceTag>C7756H2</serviceTag>
+    <serviceTag>C9756H2</serviceTag>
+    <serviceTag>CB756H2</serviceTag>
+    <serviceTag>CC756H2</serviceTag>
+    <serviceTag>CF756H2</serviceTag>
+    <serviceTag>CL759H2</serviceTag>
+    <serviceTag>CL75BH2</serviceTag>
+    <serviceTag>CL7Q6H2</serviceTag>
+    <serviceTag>CL7R6H2</serviceTag>
+    <serviceTag>CLK56H2</serviceTag>
+    <serviceTag>CR756H2</serviceTag>
+    <serviceTag>CY756H2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 7480 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>1L756H2</serviceTag>
+    <serviceTag>2W4N0L2</serviceTag>
+    <serviceTag>825Q7H2</serviceTag>
+    <serviceTag>82FG7H2</serviceTag>
+    <serviceTag>82JG7H2</serviceTag>
+    <serviceTag>82PG7H2</serviceTag>
+    <serviceTag>8D5G7H2</serviceTag>
+    <serviceTag>8F5G7H2</serviceTag>
+    <serviceTag>8M5G7H2</serviceTag>
+    <serviceTag>C1756H2</serviceTag>
+    <serviceTag>CG756H2</serviceTag>
+    <serviceTag>CJ756H2</serviceTag>
+    <serviceTag>CL757H2</serviceTag>
+    <serviceTag>CL796H2</serviceTag>
+    <serviceTag>CL7T6H2</serviceTag>
+    <serviceTag>CL7W6H2</serviceTag>
+    <serviceTag>CL556H2</serviceTag>
+    <serviceTag>CLB56H2</serviceTag>
+    <serviceTag>CLD56H2</serviceTag>
+    <serviceTag>CLJ56H2</serviceTag>
+    <serviceTag>HL756H2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 7480 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>CLG56H2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 7480 (Ubuntu)</model>
+    <systems>U</systems>
+    <serviceTag>125G7H2</serviceTag>
+  </image>
+  <image>
+    <model>Latitude 7490 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>4M26HR2</serviceTag>
+    <serviceTag>4W7C1N2</serviceTag>
+    <serviceTag>9C03JR2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 390 (Win 7 SP1 Pro 32-Bit)</model>
+    <systems>W7P32</systems>
+    <serviceTag>2J0JYV1</serviceTag>
+    <serviceTag>2L0JVV1</serviceTag>
+    <serviceTag>2V0JVV1</serviceTag>
+    <serviceTag>7GXLPS1</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 390 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>2C0JVV1</serviceTag>
+    <serviceTag>2M0JVV1</serviceTag>
+    <serviceTag>2Q0JVV1</serviceTag>
+    <serviceTag>2X0JVV1</serviceTag>
+    <serviceTag>GJ0JVV1</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 780 (Win 7 SP1 Pro 32-Bit)</model>
+    <systems>W7P32</systems>
+    <serviceTag>8X8PJQ1</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 790 (Win 7 SP1 Pro 32-Bit)</model>
+    <systems>W7P32</systems>
+    <serviceTag>200JVV1</serviceTag>
+    <serviceTag>210JVV1</serviceTag>
+    <serviceTag>230JVV1</serviceTag>
+    <serviceTag>270JVV1</serviceTag>
+    <serviceTag>280JVV1</serviceTag>
+    <serviceTag>2J00VV1</serviceTag>
+    <serviceTag>2J01VV1</serviceTag>
+    <serviceTag>2J05VV1</serviceTag>
+    <serviceTag>2J0JTV1</serviceTag>
+    <serviceTag>2J0JWV1</serviceTag>
+    <serviceTag>2J0RVV1</serviceTag>
+    <serviceTag>2J0SVV1</serviceTag>
+    <serviceTag>2J0TVV1</serviceTag>
+    <serviceTag>2R0JVV1</serviceTag>
+    <serviceTag>2S0JVV1</serviceTag>
+    <serviceTag>2T0JVV1</serviceTag>
+    <serviceTag>7GXL8S1</serviceTag>
+    <serviceTag>7GXLHS1</serviceTag>
+    <serviceTag>7GXLJS1</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 790 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>220JVV1</serviceTag>
+    <serviceTag>240JVV1</serviceTag>
+    <serviceTag>250JVV1</serviceTag>
+    <serviceTag>260JVV1</serviceTag>
+    <serviceTag>290JVV1</serviceTag>
+    <serviceTag>2J02VV1</serviceTag>
+    <serviceTag>2J03VV1</serviceTag>
+    <serviceTag>2J04VV1</serviceTag>
+    <serviceTag>2J06VV1</serviceTag>
+    <serviceTag>2J07VV1</serviceTag>
+    <serviceTag>2J08VV1</serviceTag>
+    <serviceTag>2Y0JVV1</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 3010 (Win 7 SP1 Pro 32-Bit)</model>
+    <systems>W7P32</systems>
+    <serviceTag>2J0J7V1</serviceTag>
+    <serviceTag>2J0JMV1</serviceTag>
+    <serviceTag>2J0JNV1</serviceTag>
+    <serviceTag>2J0JPV1</serviceTag>
+    <serviceTag>6F5HH02</serviceTag>
+    <serviceTag>FQB41Y1</serviceTag>
+    <serviceTag>FQBB5Y1</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 3010 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>9C03J02</serviceTag>
+    <serviceTag>FQB61Y1</serviceTag>
+    <serviceTag>FQBBCY1</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 3020 (Win 7 SP1 Home Basic 32-Bit)</model>
+    <systems>W7H32</systems>
+    <serviceTag>7SXY7C2</serviceTag>
+    <serviceTag>9C03C72</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 3020 (Win 7 SP1 Home Basic 64-Bit)</model>
+    <systems>W7H64</systems>
+    <serviceTag>4M26BC2</serviceTag>
+    <serviceTag>8DPRW72</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 3020 (Win 7 SP1 Pro 32-Bit)</model>
+    <systems>W7P32</systems>
+    <serviceTag>8X8PLZ1</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 3020 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>274N082</serviceTag>
+    <serviceTag>407C132</serviceTag>
+    <serviceTag>417C132</serviceTag>
+    <serviceTag>427C132</serviceTag>
+    <serviceTag>437C132</serviceTag>
+    <serviceTag>447C132</serviceTag>
+    <serviceTag>457C132</serviceTag>
+    <serviceTag>4B7C132</serviceTag>
+    <serviceTag>4D7C132</serviceTag>
+    <serviceTag>4G7C132</serviceTag>
+    <serviceTag>4J7C132</serviceTag>
+    <serviceTag>4M26H52</serviceTag>
+    <serviceTag>4M7C132</serviceTag>
+    <serviceTag>4W7F132</serviceTag>
+    <serviceTag>4W7K132</serviceTag>
+    <serviceTag>4WJC132</serviceTag>
+    <serviceTag>4WVC132</serviceTag>
+    <serviceTag>5KR98C2</serviceTag>
+    <serviceTag>6W4N082</serviceTag>
+    <serviceTag>7W4N082</serviceTag>
+    <serviceTag>8DPRT72</serviceTag>
+    <serviceTag>JZ5MJ02</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 3020 (Win 7 SP1 Pro 64-Bit / Win 8.1 64-Bit)</model>
+    <systems>W7P64,W8</systems>
+    <serviceTag>46T3T72</serviceTag>
+    <serviceTag>4W7Z132</serviceTag>
+    <serviceTag>4WDC132</serviceTag>
+    <serviceTag>6F5HH32</serviceTag>
+    <serviceTag>6KGQ6C2</serviceTag>
+    <serviceTag>7SXYYC2</serviceTag>
+    <serviceTag>8DPR172</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 3020 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>467C132</serviceTag>
+    <serviceTag>4W0C132</serviceTag>
+    <serviceTag>4W2C132</serviceTag>
+    <serviceTag>4W3C132</serviceTag>
+    <serviceTag>6KGQVC2</serviceTag>
+    <serviceTag>9C03T72</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 3020 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>4M26H82</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 3020M (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>2W4F082</serviceTag>
+    <serviceTag>2W4G082</serviceTag>
+    <serviceTag>2W4H082</serviceTag>
+    <serviceTag>2W4J082</serviceTag>
+    <serviceTag>2W4K082</serviceTag>
+    <serviceTag>2W4L082</serviceTag>
+    <serviceTag>4W7CD32</serviceTag>
+    <serviceTag>4WTC132</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 3020M (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>4M26HD2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 3030 All In One (Win 7 SP1 Pro 32-Bit)</model>
+    <systems>W7P32</systems>
+    <serviceTag>4W7X132</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 3030 All In One (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>4W7CJ32</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 3030 All In One (Win 7 SP1 Pro 64-Bit / Win 8.1 64-Bit)</model>
+    <systems>W7P64,W8</systems>
+    <serviceTag>HW4N082</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 3030 All In One (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>5KR9YC2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 3040 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>5KR93C2</serviceTag>
+    <serviceTag>655HHJ2</serviceTag>
+    <serviceTag>6F5HXJ2</serviceTag>
+    <serviceTag>8DPRJD2</serviceTag>
+    <serviceTag>8DPRJG2</serviceTag>
+    <serviceTag>8DPRJH2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 3040 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>665HHJ2</serviceTag>
+    <serviceTag>6F5BHJ2</serviceTag>
+    <serviceTag>6F5KHJ2</serviceTag>
+    <serviceTag>6F5LHJ2</serviceTag>
+    <serviceTag>6F5MHJ2</serviceTag>
+    <serviceTag>6F5NHJ2</serviceTag>
+    <serviceTag>6F5PHJ2</serviceTag>
+    <serviceTag>6F5QHJ2</serviceTag>
+    <serviceTag>6F5RHJ2</serviceTag>
+    <serviceTag>6F5SHJ2</serviceTag>
+    <serviceTag>6F5THJ2</serviceTag>
+    <serviceTag>6FDHHJ2</serviceTag>
+    <serviceTag>6FHHHJ2</serviceTag>
+    <serviceTag>6FMHHJ2</serviceTag>
+    <serviceTag>6FSHHJ2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 3046 (Win 7 SP1 Home Basic 64-Bit)</model>
+    <systems>W7H64</systems>
+    <serviceTag>CL7G6H2</serviceTag>
+    <serviceTag>CL7N6H2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 3046 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>6L5HHJ2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 3046 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>5KR9DH2</serviceTag>
+    <serviceTag>6F1HHJ2</serviceTag>
+    <serviceTag>6F2HHJ2</serviceTag>
+    <serviceTag>6F59HJ2</serviceTag>
+    <serviceTag>6F7HHJ2</serviceTag>
+    <serviceTag>6FQHHJ2</serviceTag>
+    <serviceTag>6V5HHJ2</serviceTag>
+    <serviceTag>6W5HHJ2</serviceTag>
+    <serviceTag>CL751H2</serviceTag>
+    <serviceTag>CL75LH2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 3050 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>6F5CHJ2</serviceTag>
+    <serviceTag>9F5HHJ2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 3050 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>2W4N0R2</serviceTag>
+    <serviceTag>46T3KQ2</serviceTag>
+    <serviceTag>4M26HQ2</serviceTag>
+    <serviceTag>5KR9DP2</serviceTag>
+    <serviceTag>635HHJ2</serviceTag>
+    <serviceTag>6C5HHJ2</serviceTag>
+    <serviceTag>6F5HPJ2</serviceTag>
+    <serviceTag>6FNHHJ2</serviceTag>
+    <serviceTag>6FRHHJ2</serviceTag>
+    <serviceTag>6J5HHJ2</serviceTag>
+    <serviceTag>6KGQFS2</serviceTag>
+    <serviceTag>6X5HHJ2</serviceTag>
+    <serviceTag>825GHH2</serviceTag>
+    <serviceTag>825GKH2</serviceTag>
+    <serviceTag>CL756K2</serviceTag>
+    <serviceTag>HF5HHJ2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 3050 (Win 10 SL 64-Bit)</model>
+    <systems>W10S</systems>
+    <serviceTag>4M26HL2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 3050 (Ubuntu)</model>
+    <systems>U</systems>
+    <serviceTag>6M5HHJ2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 3050 All In One (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>7GXLCS2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 5040 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>1W4N082</serviceTag>
+    <serviceTag>46T3KB2</serviceTag>
+    <serviceTag>685HHJ2</serviceTag>
+    <serviceTag>7SXYDB2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 5040 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>6H5HHJ2</serviceTag>
+    <serviceTag>7F5HHJ2</serviceTag>
+    <serviceTag>9C03JB2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 5050 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>9C03JK2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 5050 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>CL75XH2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 5060 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>825G7T2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 5250 All In One (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>6FGHHJ2</serviceTag>
+    <serviceTag>6FPHHJ2</serviceTag>
+    <serviceTag>JF5HHJ2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 7010 (Win 7 SP1 Pro 32-Bit)</model>
+    <systems>W7P32</systems>
+    <serviceTag>2F0JVV1</serviceTag>
+    <serviceTag>4W7J132</serviceTag>
+    <serviceTag>4WGC132</serviceTag>
+    <serviceTag>658P3W1</serviceTag>
+    <serviceTag>658PRW1</serviceTag>
+    <serviceTag>7GXLCX1</serviceTag>
+    <serviceTag>8DPRJ02</serviceTag>
+    <serviceTag>FQB71Y1</serviceTag>
+    <serviceTag>FQBB7Y1</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 7010 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>1J0JVV1</serviceTag>
+    <serviceTag>2D0JVV1</serviceTag>
+    <serviceTag>2H0JVV1</serviceTag>
+    <serviceTag>2J0JVV1</serviceTag>
+    <serviceTag>2J0JZV1</serviceTag>
+    <serviceTag>2J0PVV1</serviceTag>
+    <serviceTag>2J0QVV1</serviceTag>
+    <serviceTag>2J1JVV1</serviceTag>
+    <serviceTag>2J2JVV1</serviceTag>
+    <serviceTag>2J3JVV1</serviceTag>
+    <serviceTag>2J4JVV1</serviceTag>
+    <serviceTag>2J5JVV1</serviceTag>
+    <serviceTag>2J6JVV1</serviceTag>
+    <serviceTag>2JDJVV1</serviceTag>
+    <serviceTag>2JXJVV1</serviceTag>
+    <serviceTag>2N0JVV1</serviceTag>
+    <serviceTag>2P0JVV1</serviceTag>
+    <serviceTag>2W4N022</serviceTag>
+    <serviceTag>4H7C132</serviceTag>
+    <serviceTag>4K7C132</serviceTag>
+    <serviceTag>4L7C132</serviceTag>
+    <serviceTag>4M26H02</serviceTag>
+    <serviceTag>4W7H132</serviceTag>
+    <serviceTag>4WQC132</serviceTag>
+    <serviceTag>4WWC132</serviceTag>
+    <serviceTag>4WYC132</serviceTag>
+    <serviceTag>658P0W1</serviceTag>
+    <serviceTag>658P4W1</serviceTag>
+    <serviceTag>658PQW1</serviceTag>
+    <serviceTag>658PSW1</serviceTag>
+    <serviceTag>FQBBGY1</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 7010 (Win 7 SP1 Pro 64-Bit / Win 8.1 64-Bit)</model>
+    <systems>W7P64,W8</systems>
+    <serviceTag>4WFC132</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 7010 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>497C132</serviceTag>
+    <serviceTag>4W71132</serviceTag>
+    <serviceTag>4WBC132</serviceTag>
+    <serviceTag>4WPC132</serviceTag>
+    <serviceTag>4WSC132</serviceTag>
+    <serviceTag>4WZC132</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 7020 (Win 7 SP1 Home Basic 64-Bit)</model>
+    <systems>W7H64</systems>
+    <serviceTag>7SXGDC2</serviceTag>
+    <serviceTag>7SXLDC2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 7020 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>2W4N182</serviceTag>
+    <serviceTag>4W4C132</serviceTag>
+    <serviceTag>4W7D132</serviceTag>
+    <serviceTag>80QXB62</serviceTag>
+    <serviceTag>9C03Z72</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 7020 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>2D4N082</serviceTag>
+    <serviceTag>46T3K82</serviceTag>
+    <serviceTag>6KGQ9C2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 7040 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>4M26ZC2</serviceTag>
+    <serviceTag>5KR9CC2</serviceTag>
+    <serviceTag>6F4HHJ2</serviceTag>
+    <serviceTag>80QX382</serviceTag>
+    <serviceTag>CL75CH2</serviceTag>
+    <serviceTag>CL75DH2</serviceTag>
+    <serviceTag>CL75HH2</serviceTag>
+    <serviceTag>FF5HHJ2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 7040 (Win 8.1 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W8,W10P</systems>
+    <serviceTag>675HHJ2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 7040 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>4W7C1H2</serviceTag>
+    <serviceTag>6F5HHH2</serviceTag>
+    <serviceTag>5F5HHJ2</serviceTag>
+    <serviceTag>6F5HHK2</serviceTag>
+    <serviceTag>6N5HHJ2</serviceTag>
+    <serviceTag>6Q5HHJ2</serviceTag>
+    <serviceTag>6R5HHJ2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 7040 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>46T3KG2</serviceTag>
+    <serviceTag>825GRH2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 7050 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>4M26HK2</serviceTag>
+    <serviceTag>6F5HHQ2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 7050 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>JZ5MJH2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 7050 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>5KR9DK2</serviceTag>
+    <serviceTag>6F5HHL2</serviceTag>
+    <serviceTag>9C03JN2</serviceTag>
+    <serviceTag>DFR3LQ2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 7050 (Ubuntu)</model>
+    <systems>U</systems>
+    <serviceTag>4W7C1L2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 7440 AIO (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>2G4N082</serviceTag>
+    <serviceTag>6F0HHJ2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 7440 AIO (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>6F5GHJ2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 7450 All In One (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>9C03JH2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 7460 All In One (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>DFR3L42</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 9020 (Win 7 SP1 Pro 32-Bit)</model>
+    <systems>W7P32</systems>
+    <serviceTag>2W46082</serviceTag>
+    <serviceTag>2W47082</serviceTag>
+    <serviceTag>2W48082</serviceTag>
+    <serviceTag>2W49082</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 9020 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>214N082</serviceTag>
+    <serviceTag>224N082</serviceTag>
+    <serviceTag>234N082</serviceTag>
+    <serviceTag>244N082</serviceTag>
+    <serviceTag>254N082</serviceTag>
+    <serviceTag>2W4N282</serviceTag>
+    <serviceTag>2W7C132</serviceTag>
+    <serviceTag>4C7C132</serviceTag>
+    <serviceTag>4W4N082</serviceTag>
+    <serviceTag>4W6C132</serviceTag>
+    <serviceTag>4WCC132</serviceTag>
+    <serviceTag>4WHC132</serviceTag>
+    <serviceTag>4WRC132</serviceTag>
+    <serviceTag>5KR9D42</serviceTag>
+    <serviceTag>5W4N082</serviceTag>
+    <serviceTag>5W7C132</serviceTag>
+    <serviceTag>6KGQF02</serviceTag>
+    <serviceTag>7GXLCZ1</serviceTag>
+    <serviceTag>7SXYD42</serviceTag>
+    <serviceTag>80QX762</serviceTag>
+    <serviceTag>80QXM62</serviceTag>
+    <serviceTag>9C03J42</serviceTag>
+    <serviceTag>DFR3L02</serviceTag>
+    <serviceTag>FQBB8Y1</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 9020 (Win 7 SP1 Pro 64-Bit / Win 8.1 64-Bit)</model>
+    <systems>W7P64,W8</systems>
+    <serviceTag>264N082</serviceTag>
+    <serviceTag>2W4N382</serviceTag>
+    <serviceTag>4W5C132</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 9020 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>2W4NL82</serviceTag>
+    <serviceTag>4W7Y132</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 9020 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>7SXHDC2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 9020M (Win 7 SP1 Pro 32-Bit)</model>
+    <systems>W7P32</systems>
+    <serviceTag>6KGQF42</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 9020M (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>DW4N082</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 9020M (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>204N082</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 9030 All In One (Win 7 SP1 Pro 64-Bit / Win 8.1 64-Bit)</model>
+    <systems>W7P64,W8</systems>
+    <serviceTag>294N082</serviceTag>
+    <serviceTag>2W4N032</serviceTag>
+    <serviceTag>4W7C182</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex 9030 All In One (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>4W7G132</serviceTag>
+    <serviceTag>4WNC132</serviceTag>
+    <serviceTag>6F5HH62</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex XE2 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>4M26HH2</serviceTag>
+    <serviceTag>6F5H2J2</serviceTag>
+  </image>
+  <image>
+    <model>OptiPlex XE2 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>2W40082</serviceTag>
+    <serviceTag>2W41082</serviceTag>
+    <serviceTag>2W42082</serviceTag>
+    <serviceTag>2W43082</serviceTag>
+    <serviceTag>2W44082</serviceTag>
+    <serviceTag>2W45082</serviceTag>
+  </image>
+  <image>
+    <model>Precision T1700 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>2H4N082</serviceTag>
+    <serviceTag>4N7C132</serviceTag>
+    <serviceTag>4Q7C132</serviceTag>
+    <serviceTag>4S7C132</serviceTag>
+    <serviceTag>4T7C132</serviceTag>
+    <serviceTag>4W79132</serviceTag>
+    <serviceTag>4X7C132</serviceTag>
+    <serviceTag>6W7C132</serviceTag>
+    <serviceTag>FQBB9Y1</serviceTag>
+    <serviceTag>JW4N082</serviceTag>
+  </image>
+  <image>
+    <model>Precision T1700 (Win 7 SP1 Pro 64-Bit / Win 8.1 64-Bit)</model>
+    <systems>W7P64,W8</systems>
+    <serviceTag>1W7C132</serviceTag>
+    <serviceTag>2C4N082</serviceTag>
+    <serviceTag>3W7C132</serviceTag>
+    <serviceTag>4P7C132</serviceTag>
+    <serviceTag>4W7C132</serviceTag>
+    <serviceTag>7W7C132</serviceTag>
+    <serviceTag>9W7C132</serviceTag>
+    <serviceTag>BW7C132</serviceTag>
+    <serviceTag>CW7C132</serviceTag>
+    <serviceTag>DW7C132</serviceTag>
+  </image>
+  <image>
+    <model>Precision T1700 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>4W7B132</serviceTag>
+    <serviceTag>GW7C132</serviceTag>
+  </image>
+  <image>
+    <model>Precision M2800 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>5C03J72</serviceTag>
+    <serviceTag>8BPRJ72</serviceTag>
+  </image>
+  <image>
+    <model>Precision M2800 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>8DRRJ72</serviceTag>
+  </image>
+  <image>
+    <model>Dell Precision Tower 3420 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>5F5HHK2</serviceTag>
+  </image>
+  <image>
+    <model>Precision 3510 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>4623K72</serviceTag>
+  </image>
+  <image>
+    <model>Precision 3510 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>5KR9MC2</serviceTag>
+    <serviceTag>895G7H2</serviceTag>
+  </image>
+  <image>
+    <model>Precision T3600 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>2J0DVV1</serviceTag>
+    <serviceTag>2J0FVV1</serviceTag>
+    <serviceTag>5J0JVV1</serviceTag>
+    <serviceTag>FQBBKY1</serviceTag>
+  </image>
+  <image>
+    <model>Precision T3610 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>487C132</serviceTag>
+  </image>
+  <image>
+    <model>Dell Precision Tower 3620 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>6F5HHJ2</serviceTag>
+  </image>
+  <image>
+    <model>Dell Precision Tower 3620 (Win 8.1 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W8,W10P</systems>
+    <serviceTag>DF5HHJ2</serviceTag>
+  </image>
+  <image>
+    <model>Dell Precision Tower 3620 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>46T3KH2</serviceTag>
+  </image>
+  <image>
+    <model>Dell Precision Tower 3620 (Ubuntu)</model>
+    <systems>U</systems>
+    <serviceTag>5KR9DD2</serviceTag>
+  </image>
+  <image>
+    <model>Precision M4800 (Win 7 SP1 Pro 64-Bit / Win 8.1 64-Bit)</model>
+    <systems>W7P64,W8</systems>
+    <serviceTag>4VT3K72</serviceTag>
+    <serviceTag>5KR9D72</serviceTag>
+    <serviceTag>80Q5362</serviceTag>
+    <serviceTag>80QR362</serviceTag>
+  </image>
+  <image>
+    <model>Precision M4800 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>9C0CJ72</serviceTag>
+  </image>
+  <image>
+    <model>Precision 5510 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>46T3M72</serviceTag>
+    <serviceTag>4M06HC2</serviceTag>
+    <serviceTag>4M29HC2</serviceTag>
+    <serviceTag>JZ55JC2</serviceTag>
+  </image>
+  <image>
+    <model>Precision 5510 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>5RR9DC2</serviceTag>
+    <serviceTag>5SR9DC2</serviceTag>
+    <serviceTag>CL7S6H2</serviceTag>
+  </image>
+  <image>
+    <model>Precision 5520 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>CL766H2</serviceTag>
+  </image>
+  <image>
+    <model>Precision Tower 5810 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>4M26CC2</serviceTag>
+  </image>
+  <image>
+    <model>Precision Tower 5810 (Win 7 SP1 Pro 64-Bit / Win 8.1 64-Bit)</model>
+    <systems>W7P64,W8</systems>
+    <serviceTag>2B4N082</serviceTag>
+  </image>
+  <image>
+    <model>Precision M6800 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>2W0N082</serviceTag>
+    <serviceTag>2W1N082</serviceTag>
+    <serviceTag>8DPRJ12</serviceTag>
+  </image>
+  <image>
+    <model>Precision M6800 (Win 7 SP1 Pro 64-Bit / Win 8.1 64-Bit)</model>
+    <systems>W7P64,W8</systems>
+    <serviceTag>2W2N082</serviceTag>
+    <serviceTag>2W3N082</serviceTag>
+  </image>
+  <image>
+    <model>Precision 7510 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>4683K72</serviceTag>
+    <serviceTag>5K89DC2</serviceTag>
+    <serviceTag>5KRXDC2</serviceTag>
+  </image>
+  <image>
+    <model>Precision 7510 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>62GQFC2</serviceTag>
+    <serviceTag>6KGQJC2</serviceTag>
+    <serviceTag>82HG7H2</serviceTag>
+    <serviceTag>JZ5JJC2</serviceTag>
+  </image>
+  <image>
+    <model>Precision 7510 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>5BR9DC2</serviceTag>
+    <serviceTag>5KRZDC2</serviceTag>
+    <serviceTag>7S4YDC2</serviceTag>
+    <serviceTag>DKR3L72</serviceTag>
+  </image>
+  <image>
+    <model>Precision 7520 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>925G7H2</serviceTag>
+    <serviceTag>CLQ56H2</serviceTag>
+  </image>
+  <image>
+    <model>Precision 7530 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>CL756S2</serviceTag>
+  </image>
+  <image>
+    <model>Precision T7600 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>FQBB3Y1</serviceTag>
+  </image>
+  <image>
+    <model>Precision 7710 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>6KBQFC2</serviceTag>
+    <serviceTag>6KGGFC2</serviceTag>
+    <serviceTag>8C5G7H2</serviceTag>
+    <serviceTag>CL736H2</serviceTag>
+  </image>
+  <image>
+    <model>Precision 7710 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>5MR9DC2</serviceTag>
+  </image>
+  <image>
+    <model>Precision 7720 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>825G7H2</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 460 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>FQBB1R1</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 3052 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>9C03872</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 3250 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>825GXH2</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 3250 (Ubuntu)</model>
+    <systems>U</systems>
+    <serviceTag>DFR3T72</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 3268 (Win 10 SL 64-Bit)</model>
+    <systems>W10S</systems>
+    <serviceTag>6B5HHJ2</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 3458 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>5KC9DC2</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 3458 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>JZ5MKC2</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 3459 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>1M26HC2</serviceTag>
+    <serviceTag>46T3KC2</serviceTag>
+    <serviceTag>4J26HC2</serviceTag>
+    <serviceTag>4P26HC2</serviceTag>
+    <serviceTag>50R9DC2</serviceTag>
+    <serviceTag>5KR9GC2</serviceTag>
+    <serviceTag>6KGDFC2</serviceTag>
+    <serviceTag>7SFYDC2</serviceTag>
+    <serviceTag>9903J72</serviceTag>
+    <serviceTag>9C0RJ72</serviceTag>
+    <serviceTag>9N03J72</serviceTag>
+    <serviceTag>DFR0L72</serviceTag>
+    <serviceTag>DFR3R72</serviceTag>
+    <serviceTag>FM26HC2</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 3460 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>HQBB1Y1</serviceTag>
+    <serviceTag>JQBB1Y1</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 14 3468 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>80QX3F2</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 3558 (Win 7 SP1 Pro 32-Bit)</model>
+    <systems>W7P32</systems>
+    <serviceTag>8DPQJ72</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 3558 (Win 7 SP1 Pro 64-Bit / Win 8.1 64-Bit)</model>
+    <systems>W7P64,W8</systems>
+    <serviceTag>46T3P72</serviceTag>
+    <serviceTag>CL75662</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 3558 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>43T3K72</serviceTag>
+    <serviceTag>4GT3K72</serviceTag>
+    <serviceTag>4KT3K72</serviceTag>
+    <serviceTag>4M2LHC2</serviceTag>
+    <serviceTag>4M2NHC2</serviceTag>
+    <serviceTag>4NT3K72</serviceTag>
+    <serviceTag>JZ5MGC2</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 3558 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>80JX362</serviceTag>
+    <serviceTag>C0QX362</serviceTag>
+    <serviceTag>DFRRL72</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 3558 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>1KGQFC2</serviceTag>
+    <serviceTag>4MD6HC2</serviceTag>
+    <serviceTag>61GQFC2</serviceTag>
+    <serviceTag>6K4QFC2</serviceTag>
+    <serviceTag>DFV3L72</serviceTag>
+    <serviceTag>DKGQFC2</serviceTag>
+    <serviceTag>GKGQFC2</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 3558 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>3C03J72</serviceTag>
+    <serviceTag>9C03R72</serviceTag>
+    <serviceTag>9CK3J72</serviceTag>
+    <serviceTag>9G03J72</serviceTag>
+    <serviceTag>9R03J72</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 3559 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>JZ5RJC2</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 3559 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>7BXYDC2</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 3559 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>2DPRJ72</serviceTag>
+    <serviceTag>6K5QFC2</serviceTag>
+    <serviceTag>6KGQLC2</serviceTag>
+    <serviceTag>6KNQFC2</serviceTag>
+    <serviceTag>8DXRJ72</serviceTag>
+    <serviceTag>8LPRJ72</serviceTag>
+    <serviceTag>8WPRJ72</serviceTag>
+    <serviceTag>BDPRJ72</serviceTag>
+    <serviceTag>CDPRJ72</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 3560 (Win 7 SP1 Pro 32-Bit)</model>
+    <systems>W7P32</systems>
+    <serviceTag>158PGW1</serviceTag>
+    <serviceTag>658SGW1</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 3560 (Win 7 SP1 Pro 64-Bit)</model>
+    <systems>W7P64</systems>
+    <serviceTag>6581GW1</serviceTag>
+    <serviceTag>6587GW1</serviceTag>
+    <serviceTag>65RPGW1</serviceTag>
+    <serviceTag>6J8PGW1</serviceTag>
+    <serviceTag>6K8PGW1</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 15 3568 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>4M262C2</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 15 3568 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>825G7F2</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 15 3568 (Ubuntu)</model>
+    <systems>U</systems>
+    <serviceTag>6F5HNJ2</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 3669 Desktop (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>5KR9DN2</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 3670 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>CL756Q2</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 3800 (Win 7 SP1 Home Basic 64-Bit)</model>
+    <systems>W7H64</systems>
+    <serviceTag>5KR9DB2</serviceTag>
+    <serviceTag>825G762</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 3800 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>4W7C152</serviceTag>
+    <serviceTag>8DPRZ72</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 3900 (Win 7 SP1 Home Basic 64-Bit)</model>
+    <systems>W7H64</systems>
+    <serviceTag>6KGQF62</serviceTag>
+    <serviceTag>80QX342</serviceTag>
+    <serviceTag>80QX862</serviceTag>
+    <serviceTag>825G742</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 3901 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>4W77132</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 3905 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>6F53HJ2</serviceTag>
+    <serviceTag>6F56HJ2</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 5459 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>2W4NK82</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 5460 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>9C03972</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 14 5468 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>46TMK72</serviceTag>
+    <serviceTag>821G7H2</serviceTag>
+    <serviceTag>82527H2</serviceTag>
+    <serviceTag>825J7H2</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 14 5468 (Win 10 SL 64-Bit)</model>
+    <systems>W10S</systems>
+    <serviceTag>DXR3L72</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 14 5468 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>6KGQTC2</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 15 5568 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>CLF56H2</serviceTag>
+    <serviceTag>CW756H2</serviceTag>
+    <serviceTag>CX756H2</serviceTag>
+  </image>
+  <image>
+    <model>Vostro 15 5568 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>4FR3L72</serviceTag>
+    <serviceTag>DF43L72</serviceTag>
+    <serviceTag>DF53L72</serviceTag>
+    <serviceTag>DF83L72</serviceTag>
+    <serviceTag>DFC3L72</serviceTag>
+    <serviceTag>DFR7L72</serviceTag>
+    <serviceTag>DLR3L72</serviceTag>
+  </image>
+  <image>
+    <model>XPS 8700 (Win 8.1 64-Bit)</model>
+    <systems>W8</systems>
+    <serviceTag>4M26H32</serviceTag>
+    <serviceTag>4R7C132</serviceTag>
+    <serviceTag>4V7C132</serviceTag>
+  </image>
+  <image>
+    <model>XPS 8900 (Win 7 SP1 Pro 64-Bit / Win 10 Pro 64-Bit)</model>
+    <systems>W7P64,W10P</systems>
+    <serviceTag>2F4N082</serviceTag>
+    <serviceTag>6F5HHB2</serviceTag>
+  </image>
+  <image>
+    <model>XPS 8900 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>284N082</serviceTag>
+    <serviceTag>2V4N082</serviceTag>
+    <serviceTag>2W4M082</serviceTag>
+    <serviceTag>2W4N082</serviceTag>
+    <serviceTag>2W4P082</serviceTag>
+    <serviceTag>2W4Q082</serviceTag>
+    <serviceTag>2W5N082</serviceTag>
+    <serviceTag>2W6N082</serviceTag>
+    <serviceTag>2W7N082</serviceTag>
+    <serviceTag>2W8N082</serviceTag>
+    <serviceTag>2WBN082</serviceTag>
+    <serviceTag>2WCN082</serviceTag>
+    <serviceTag>2WGN082</serviceTag>
+    <serviceTag>2WHN082</serviceTag>
+    <serviceTag>2WJN082</serviceTag>
+    <serviceTag>2WKN082</serviceTag>
+    <serviceTag>2WLN082</serviceTag>
+    <serviceTag>2WNN082</serviceTag>
+    <serviceTag>2WQN082</serviceTag>
+    <serviceTag>2WRN082</serviceTag>
+    <serviceTag>2WSN082</serviceTag>
+    <serviceTag>2WTN082</serviceTag>
+    <serviceTag>2WVN082</serviceTag>
+    <serviceTag>2WWN082</serviceTag>
+    <serviceTag>2WXN082</serviceTag>
+    <serviceTag>2WZN082</serviceTag>
+    <serviceTag>2X4N082</serviceTag>
+    <serviceTag>2Y4N082</serviceTag>
+    <serviceTag>2Z4N082</serviceTag>
+    <serviceTag>FW4N082</serviceTag>
+  </image>
+  <image>
+    <model>XPS 8900 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>2W9N082</serviceTag>
+    <serviceTag>2WDN082</serviceTag>
+    <serviceTag>2WFN082</serviceTag>
+    <serviceTag>2WMN082</serviceTag>
+    <serviceTag>2WPN082</serviceTag>
+    <serviceTag>2WYN082</serviceTag>
+  </image>
+  <image>
+    <model>XPS 8910 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>1F5HHJ2</serviceTag>
+  </image>
+  <image>
+    <model>XPS 8920 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>2W4N0M2</serviceTag>
+  </image>
+  <image>
+    <model>XPS 8930 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>2W4N0Q2</serviceTag>
+  </image>
+  <image>
+    <model>XPS 12 9250 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>8DP0J72</serviceTag>
+  </image>
+  <image>
+    <model>XPS 13 9350 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>16T3K72</serviceTag>
+    <serviceTag>4633K72</serviceTag>
+    <serviceTag>46T3F72</serviceTag>
+    <serviceTag>46T3K72</serviceTag>
+    <serviceTag>4C26HC2</serviceTag>
+    <serviceTag>4M26HC2</serviceTag>
+    <serviceTag>4M28HC2</serviceTag>
+    <serviceTag>4MQ6HC2</serviceTag>
+    <serviceTag>4XT3K72</serviceTag>
+    <serviceTag>4ZT3K72</serviceTag>
+    <serviceTag>5K69DC2</serviceTag>
+    <serviceTag>5QR9DC2</serviceTag>
+    <serviceTag>6KFQFC2</serviceTag>
+    <serviceTag>6KGMFC2</serviceTag>
+    <serviceTag>6KKQFC2</serviceTag>
+    <serviceTag>7SBYDC2</serviceTag>
+    <serviceTag>7SDYDC2</serviceTag>
+    <serviceTag>803X362</serviceTag>
+    <serviceTag>80NX362</serviceTag>
+    <serviceTag>8DP7J72</serviceTag>
+    <serviceTag>8LQX362</serviceTag>
+    <serviceTag>8Z5MJC2</serviceTag>
+    <serviceTag>9103J72</serviceTag>
+    <serviceTag>9C03D72</serviceTag>
+    <serviceTag>9CH3J72</serviceTag>
+    <serviceTag>BM26HC2</serviceTag>
+    <serviceTag>D3R3L72</serviceTag>
+    <serviceTag>J65MJC2</serviceTag>
+    <serviceTag>JZ2MJC2</serviceTag>
+    <serviceTag>JZYMJC2</serviceTag>
+  </image>
+  <image>
+    <model>XPS 13 9350 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>3Z5MJC2</serviceTag>
+    <serviceTag>40T3K72</serviceTag>
+    <serviceTag>44T3K72</serviceTag>
+    <serviceTag>4M2CHC2</serviceTag>
+    <serviceTag>4M2DHC2</serviceTag>
+    <serviceTag>5K39DC2</serviceTag>
+    <serviceTag>6KGJFC2</serviceTag>
+    <serviceTag>7FR3L72</serviceTag>
+    <serviceTag>7SX8DC2</serviceTag>
+    <serviceTag>9CX3J72</serviceTag>
+    <serviceTag>BZ5MJC2</serviceTag>
+    <serviceTag>D8R3L72</serviceTag>
+    <serviceTag>DFR3P72</serviceTag>
+    <serviceTag>DPR3L72</serviceTag>
+    <serviceTag>GKR9DC2</serviceTag>
+  </image>
+  <image>
+    <model>XPS 13 9350 (Win 10 SL 64-Bit)</model>
+    <systems>W10S</systems>
+    <serviceTag>8C03J72</serviceTag>
+    <serviceTag>9D03J72</serviceTag>
+    <serviceTag>JZ5MJ72</serviceTag>
+  </image>
+  <image>
+    <model>XPS 13 9350 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>4KGQFC2</serviceTag>
+    <serviceTag>6KGQF72</serviceTag>
+    <serviceTag>DFRSL72</serviceTag>
+    <serviceTag>HKGQFC2</serviceTag>
+    <serviceTag>JZ5FJC2</serviceTag>
+    <serviceTag>JZ5NJC2</serviceTag>
+  </image>
+  <image>
+    <model>XPS 13 9350 (Ubuntu)</model>
+    <systems>U</systems>
+    <serviceTag>7SVYDC2</serviceTag>
+    <serviceTag>DFR3L72</serviceTag>
+  </image>
+  <image>
+    <model>XPS 13 9360 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>6KGQRC2</serviceTag>
+    <serviceTag>805G7H2</serviceTag>
+    <serviceTag>825T7H2</serviceTag>
+    <serviceTag>82XG7H2</serviceTag>
+    <serviceTag>BL756H2</serviceTag>
+    <serviceTag>C25G7H2</serviceTag>
+    <serviceTag>CL75NH2</serviceTag>
+    <serviceTag>F25G7H2</serviceTag>
+  </image>
+  <image>
+    <model>XPS 13 9360 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>7SXYRC2</serviceTag>
+    <serviceTag>823G7H2</serviceTag>
+    <serviceTag>825GBH2</serviceTag>
+    <serviceTag>825GNH2</serviceTag>
+    <serviceTag>CL356H2</serviceTag>
+  </image>
+  <image>
+    <model>XPS 13 9360 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>CL7X6H2</serviceTag>
+    <serviceTag>DFR1L72</serviceTag>
+    <serviceTag>DZR3L72</serviceTag>
+  </image>
+  <image>
+    <model>XPS 13 9360 (Ubuntu)</model>
+    <systems>U</systems>
+    <serviceTag>CLP56H2</serviceTag>
+  </image>
+  <image>
+    <model>XPS 13 9365 2-in-1 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>827G7H2</serviceTag>
+    <serviceTag>845G7H2</serviceTag>
+  </image>
+  <image>
+    <model>XPS 13 9365 2-in-1 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>325G7H2</serviceTag>
+    <serviceTag>80QX3M2</serviceTag>
+  </image>
+  <image>
+    <model>XPS 15 9550 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>46T3D72</serviceTag>
+    <serviceTag>5KG9DC2</serviceTag>
+    <serviceTag>6KDQFC2</serviceTag>
+    <serviceTag>80QZ362</serviceTag>
+    <serviceTag>8DPKJ72</serviceTag>
+    <serviceTag>8FPRJ72</serviceTag>
+    <serviceTag>9C43J72</serviceTag>
+    <serviceTag>9Z03J72</serviceTag>
+    <serviceTag>JG5MJC2</serviceTag>
+    <serviceTag>JZ0MJC2</serviceTag>
+    <serviceTag>JZJMJC2</serviceTag>
+  </image>
+  <image>
+    <model>XPS 15 9550 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>4M2GHC2</serviceTag>
+    <serviceTag>7SXZDC2</serviceTag>
+    <serviceTag>8D1RJ72</serviceTag>
+    <serviceTag>8D4RJ72</serviceTag>
+    <serviceTag>JZ5YJC2</serviceTag>
+  </image>
+  <image>
+    <model>XPS 15 9550 (Win 10 SL 64-Bit)</model>
+    <systems>W10S</systems>
+    <serviceTag>9803J72</serviceTag>
+  </image>
+  <image>
+    <model>XPS 15 9550 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>6KGQGC2</serviceTag>
+    <serviceTag>9C07J72</serviceTag>
+  </image>
+  <image>
+    <model>XPS 15 9560 (Win 10 Home 64-Bit)</model>
+    <systems>W10H</systems>
+    <serviceTag>6F5HHM2</serviceTag>
+    <serviceTag>82BG7H2</serviceTag>
+  </image>
+  <image>
+    <model>XPS 15 9560 (Win 10 Pro 64-Bit)</model>
+    <systems>W10P</systems>
+    <serviceTag>CL726H2</serviceTag>
+  </image>
+  <image>
+    <model>XPS 15 9560 (Win 10 China 64-Bit)</model>
+    <systems>W10C</systems>
+    <serviceTag>825GFH2</serviceTag>
+  </image>
+</images>

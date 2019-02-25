@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>b01468a2-fda1-4a4c-81b1-10ee03788ac4</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>Windows-ISO-Downloader</AssemblyName>
+    <OutputType>WinExe</OutputType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Extensions" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\MyApplication.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\MyComputer.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\MyProject.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\Resources.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceArabic.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceBulgarian.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceChinese.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceChineseHk.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceChineseTw.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceCroatian.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceCzech.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceDanish.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceDutch.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceEnglish.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceEnglishUs.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceEstonian.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceFinnish.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceFrench.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceFrenchCa.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceGerman.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceGreek.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceHebrew.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceHungarian.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceItalian.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceJapanese.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceKorean.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceLatvian.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceLithuanian.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceNorwegian.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourcePolish.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourcePortuguese.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourcePortugueseBr.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceRomanian.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceRussian.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceSerbian.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceSlovak.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceSlovenian.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceSpanish.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceSpanishMx.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceSwedish.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceThai.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceTurkish.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\LangDropdown.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\Resources\ResourceUkrainian.cs" />
+    <Compile Include="Windows_ISO_Downloader\My\MySettings.cs" />
+    <Compile Include="Windows_ISO_Downloader\Form1.cs" />
+    <Compile Include="Windows_ISO_Downloader\NativeMethods.cs" />
+    <Compile Include="Windows_ISO_Downloader\Form2.cs" />
+    <Compile Include="Windows_ISO_Downloader\MyProduct.cs" />
+    <Compile Include="Windows_ISO_Downloader\UDFreturn.cs" />
+    <Compile Include="Windows_ISO_Downloader\Form3.cs" />
+    <Compile Include="Windows_ISO_Downloader\Form4.cs" />
+    <Compile Include="Windows_ISO_Downloader\Form5.cs" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.Form1.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.Form2.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.Form3.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.Form4.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.Form5.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.Resources.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.LangDropdown.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceArabic.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceBulgarian.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceChinese.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceChineseHk.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceChineseTw.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceCroatian.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceCzech.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceDanish.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceDutch.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceEnglish.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceEnglishUs.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceEstonian.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceFinnish.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceFrench.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceFrenchCa.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceGerman.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceGreek.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceHebrew.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceHungarian.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceItalian.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceJapanese.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceKorean.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceLatvian.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceLithuanian.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceNorwegian.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourcePolish.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourcePortuguese.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourcePortugueseBr.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceRomanian.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceRussian.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceSerbian.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceSlovak.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceSlovenian.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceSpanish.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceSpanishMx.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceSwedish.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceThai.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceTurkish.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.ResourceUkrainian.resources" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.bootstrap.min.css" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.style.css" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.bootstrap3.min.css" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.dell.xml" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.honolulu.html" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.win10developer.html" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.office2010.html" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.win10.html" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.win10insider.html" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.win7.html" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.win8.html" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.home.html" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.download.html" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.home3.html" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.download3.html" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.blank.html" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.bootstrap.min.js" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.jquery.min.js" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.bootstrap3.min.js" />
+    <EmbeddedResource Include="Windows_ISO_Downloader.HeiDoc.png" />
+  </ItemGroup>
+</Project>

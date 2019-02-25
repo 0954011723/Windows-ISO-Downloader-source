@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en" style="overflow: hidden;">
+<head>
+    <title>Windows ISO Downloader</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="data:text/css;base64,|*BOOTSTRAP*|">
+    <link rel="stylesheet" href="data:text/css;base64,|*STYLECSX*|" />
+    <script src="data:text/javascript;base64,|*JQUERY*|"></script>
+    <script src="data:text/javascript;base64,|*BOOTSTRAPJS*|"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <table class="table" style="width: 100%;">
+                <tbody>
+                    <tr>
+                        <td style="vertical-align:middle;"><div style="width: 115px;"><img class="img-responsive" src="data:image/png;base64,|*HEIDOCPNG*|" alt="HeiDoc.net"></div></td>
+                        <td class="text-center" style="vertical-align:middle;"><h4>|*SOFTWARE*|</h4></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div style="margin-top: 0.5em;">
+            <div class="row" id="selectedition">
+                <h5>|*SELECTEDITION*|</h5>
+                <div class="input-group" style="margin-bottom: 1.5em;">
+                    <select class="form-control" id="product-edition">|*DROPDOWN*|</select>
+                    <div class="input-group-btn">
+                        <button class="btn btn-primary" type="button" id="submit-product-edition" onclick="window.open('https://www.heidoc.net/selectedition','_self')">|*CONFIRM*|</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="selectlanguage" style="display:none;">
+                <h5>|*SELECTLANGUAGE*|</h5>
+                <div class="input-group" style="margin-bottom: 1.5em;">
+                    <select class="form-control" id="product-languages">&nbsp;</select>
+                    <div class="input-group-btn">
+                        <button class="btn btn-primary" type="button" id="submit-sku" onclick="window.open('https://www.heidoc.net/selectlanguage','_self')">|*CONFIRM*|</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="result" style="display:none;">&nbsp;</div>
+        </div>
+    </div>
+
+    <script>
+//  <![CDATA[
+        function closeModal() {
+            document.getElementById('result').innerHTML = '&nbsp;';
+            document.getElementById('selectedition').style.display = 'inherit';
+         }
+//  ]]>
+    </script>
+</body>
+</html>
